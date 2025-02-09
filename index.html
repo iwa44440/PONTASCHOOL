@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>PONTA SCHOOL</title>
+<meta name="keywords" content="ブランド品卸,中古ブランド 仕入れ,ブランドバッグ中古,海外ブランド 仕入れ"/>
+<meta name="description" content="株式会社ビッグヒットはインポートブランド総合卸会社でグッチなど有名ブランド多数取り扱っています。バッグ・財布・アクセサリーなど様々な種類を仕入れており、ショールーム内にはLOUIS VUITTONを中心とした世界各国の有名一流品ブランド品をメインに定番品から限定品を展示しており、新品からジャンク品まで幅広く取り揃えております。"/>
+
+<meta property="og:title" content="インポートブランド総合卸　株式会社ビッグヒット｜ブランド・バッグ・財布・アクセサリー" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.bighit.co.jp/" />
+<meta property="og:image" content="template_c2_top_main01_bg.jpg" />
+<meta property="og:site_name" content="インポートブランド総合卸　株式会社ビッグヒット｜ブランド・バッグ・財布・アクセサリー" />
+<meta name="google-site-verification" content="fSCGWUZmv_jcPBodOaXfo4RQOCOGGXFadmGufwb2zys" />
+<link rel = "canonical" href = "https://www.bighit.co.jp/index.html">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSCN8RF');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="layout.css" />
+<link rel="stylesheet" href="template_c2.css" />
+<link rel="stylesheet" href="color.css" />
+<link rel="stylesheet" href="slick.css" />
+<link rel="stylesheet" href="custom.css" />
+
+<script src="jquery-1.11.1.min.js"></script>
+<script src="current.js"></script>
+<script src="scrolltopcontrol.js"></script>
+<script>
+var lh = "";
+  lh = location.href;
+if (lh.match(/dcmsadm/)){
+} else {
+  document.write('<link rel="stylesheet" href="publicside.css" />');
+  $(document).ready(function(){
+    $('#pagetitle').insertBefore('main.inner');
+    $('.matchH').matchHeight();
+    $('.matchH2').matchHeight();
+    $('.matchH3').matchHeight();
+    $('.dlb_subtitle4_02').matchHeight();
+    $("header.template_c2 .gnavi_btn_sp").on("click", function() {
+      $("header.template_c2 .gnavi_area").slideToggle();
+      $("header.template_c2 .gnavi_btn_sp").toggleClass("active");
+    });
+    var $win = $(window);
+    $win.on('load resize',function(){
+      var windowWidth = window.innerWidth;
+      if(windowWidth <= 768){
+        $('header.template_c2 .gnavi_area').insertAfter('#header_area');
+      } else {
+        $('header.template_c2 .gnavi_area').insertAfter('#header_logo');
+      }
+      if(windowWidth <= 980){
+        $(".sp_btn").on("click", function() {
+          $("#subnav_list").slideToggle();
+          $(".sp_btn").toggleClass("active");
+        });
+      }
+    });
+    $('a[href^=#]').click(function() {
+      var speed = 300; // ミリ秒
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+    });
+  });
+  if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
+    $(function() {
+      $('.tel').each(function() {
+        var str = $(this).html();
+        if ($(this).children().is('img')) {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
+          } else {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
+        }
+      });
+    });
+  }
+  var agent = window.navigator.userAgent.toLowerCase();
+  var ipad = agent.indexOf('ipad') > -1 || agent.indexOf('macintosh') > -1 && 'ontouchend' in document;
+  if(ipad == true){
+          $(function() {
+        $('.tel').each(function() {
+          var str = $(this).html();
+          if ($(this).children().is('img')) {
+            $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
+            } else {
+            $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
+          }
+        });
+      });
+  }else{
+  }
+}
+</script>
+
+<link rel="stylesheet" href="slick.css" />
+
+<script>
+var lh = "";
+    lh = location.href;
+    if (lh.match(/dcmsadm/)){
+    } else {
+    document.write('<link rel="stylesheet" href="publicside.css" />');
+    $(document).ready(function(){
+        $('.dlb_box4-4_area .col').biggerlink();
+        $('.list_link .col').biggerlink();
+        //imgLiquid
+        $(".list_link_img").imgLiquid();
+            //top mainimage
+        $('.main_area').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            fade: true,
+            cssEase: 'linear',
+            autoplay: true,
+            autoplaySpeed: 3000
+        });
+    });
+    }
+</script>
+<!------ TOP MAINIMAGE -------------------->
+<style>
+.mainimage01 {background-image: url('template_c2_top_main02_bg.jpg');}
+.mainimage02 {background-image: url('template_c2_top_main04_bg.jpg');}
+.mainimage03 {background-image: url('template_c2_top_main03_bg.jpg');}
+.mainimage04 {background-image: url('bh_top_pc_navi%281905x514%29.jpg');}
+@media only screen and (max-width: 690px) {
+    .mainimage01 {background-image: url('template_c2_top_main01_bg_sp.jpg');}
+    .mainimage02 {background-image: url('template_c2_top_main03_bg_sp.jpg');}
+    .mainimage03 {background-image: url('template_c2_top_main04_bg.jpg');} 
+　 .mainimage04 {background-image: url('bh_top_sp_navi%28690x480%29.jpg');} 
+}
+</style>
+<link href="common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" href="color_blockdl.css" />
+
+<script defer src="trace.js"></script>
+
+</head>
+
+<body id="top" class="page_index">
+	<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSCN8RF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><header class="template_c2" role="presentation">
+<div id="header">
+<div id="header_area">
+<div id="header_logo"><a href="/"><img src="会社ロゴ" alt="PONTA SCHOOL" width="424" height="127" /></a></div>
+<div class="gnavi_btn_sp">
+<div class="gnavi_btn_sp_in"><span class="dmy"><!--btn--></span> <span class="dmy"><!--btn--></span> <span class="dmy"><!--btn--></span></div>
+<p class="open">メニュー</p>
+<p class="close">閉じる</p>
+</div>
+<div class="gnavi_area"><nav>
+<ul>
+<li><a href="">Top</a></li>
+<li><a href="company.html">Company</a></li>
+<li><a href="service.html">Service</a></li>
+<li><a href="brand.html">Brand</a></li>
+<li><a href="media.html">Media</a></li>
+</ul>
+<div class="gnavi_contact"><a href="/contact.html"><span class="txt">Contact</span></a></div>
+<div class="header_sns_sp"><a href="インスタURL" target="_blank" rel="noopener"><img src="instagram.png" alt="instagram" /></a> <a href="フェイスブックのURL" target="_blank" rel="noopener"><img src="facebook.png" alt="facebook" /></a> <a class="aacd" href="https://www.aacd.gr.jp/" target="_blank" rel="noopener"><img src="aacd_logo.png" alt="一般社団法人日本流通自主管理協会" /></a></div>
+<!--<div class="gnavi_contact no2"><a href="/contact.html"><span class="txt">体験版お申込み</span></a></div>--></nav></div>
+<div id="contact_area"><a href="contact.html"><span class="txt">Contact</span> </a></div>
+<div class="header_sns"><a href="https://www.instagram.com/select_bh.co/" target="_blank" rel="noopener"><img src="instagram.png" alt="instagram" /></a> <a href="https://www.facebook.com/big.hit.shping" target="_blank" rel="noopener"><img src="facebook.png" alt="facebook" /></a> <a class="aacd" href="https://www.aacd.gr.jp/" target="_blank" rel="noopener"><img src="aacd_logo.png" alt="一般社団法人日本流通自主管理協会" /></a></div>
+</div>
+</div>
+</header>
+
+	<main id="container">
+	<div class="main_area">
+<div class="main_block mainimage01">
+<div class="black_bg">
+<div class="main_txt">
+<div class="main_txt_in">
+<h1 class="main_lead"> </h1>
+<!--<div class="main_btn"><a href="#">選ばれる理由のページへ</a></div>--></div>
+</div>
+</div>
+</div>
+<div class="main_block mainimage02">
+<div class="black_bg">
+<div class="main_txt">
+<div class="main_txt_in">
+<h1 class="main_lead"> </h1>
+<!--<div class="main_btn"><a href="#">選ばれる理由のページへ</a></div>--></div>
+</div>
+</div>
+</div>
+<div class="main_block mainimage03">
+<div class="black_bg">
+<div class="main_txt">
+<div class="main_txt_in">
+<h1 class="main_lead"> </h1>
+<!--<div class="main_btn"><a href="#">選ばれる理由のページへ</a></div>--></div>
+</div>
+</div>
+</div>
+<div class="main_block mainimage04">
+<div class="black_bg">
+<div class="main_txt">
+<div class="main_txt_in">
+<h1 class="main_lead"> </h1>
+<!--<div class="main_btn"><a href="#">選ばれる理由のページへ</a></div>--></div>
+</div>
+</div>
+</div>
+</div>
+
+	
+	<!-- ブロック貼り付けエリア -->
+	<div id="dcms_layoutPageBlockPasteArea">
+		<!-- ブロック -->
+		<div id="dcms_layoutPageBlock">
+			<br />
+<div id="policy" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en"><span style="font-size: 24pt;">About us</span></h2>
+<p class="dlb_subtitle2_08_jp">PONTA SCHOOLについて</p>
+</div>
+<div class="dlb_content-35 m80_pc m60_tablet m40_sp"><!--start-->
+<div class="col2_221 inner">
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18pt;">ブランド卸会社という<br/><span style="font-size: 24pt;"><strong>信頼</strong></span></span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>私たち PONTA SCHOOL の本業は卸業です。</p>
+<p class="mt5">卸業を生業とする以上、商品ラインナップや品質管理には力を入れております。よりお客様に安心してブランド品を購入していただける仕組みが私たちにはあります。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18.5pt;"> 　AACD 理事会社という　 　<br/><span style="font-size: 24pt;">安心</span></span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>私たちはAACD設立当初から20年以上AACDに所属し理事を務めている会社です。</p>
+<p class="mt5">常に厳しい基準で品質管理を徹底し、お客様が安心してブランド品を購入できる環境を届けていきます。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18pt;">正規特約店オーダーの<br /> <span style="font-size: 24pt;">信用</span></span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>私たちPONTA SCHOOLにはイタリアに常駐する海外専属バイヤーが4名存在します。</p>
+<p class="mt5">海外ブランドホルダーと正式に契約を結んだ正規特約店から直接オーダーをすることが可能であり、各種ブランドの新作や日本で発売されていない商品なども高品質を保った状態でお客様へ販売することが可能です。​</p>
+</div>
+</div>
+<!--end--></div>
+</div>
+<section class="section-service m80_pc m60_tablet m40_sp">
+<div class="inner dlb_box3-1_area">
+<div class="m40_pc m40_tablet m30_sp">
+<h2 class="top_title_center_underbar">Service</h2>
+<p class="top_title_center_underbar_en">事業内容</p>
+</div>
+<div class="col3_m_321 img"><!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img src="oroshiuri.jpg" alt="話し合いしている様子" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">卸事業部</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>お取引先様の多種多様なリクエスト・ニーズに対して、商品はもとより売場作成、ブランドや国内外の情報も提供し、顧客満足度を高める事を使命とする事業部です。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img src="reuse.jpg" alt="ブランドバックのディスプレイ" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">リユース事業部</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>弊社には常時約200点以上の商品をディスプレイしている業者様専用の「完全予約制ショールーム」を完備しております。直接商品を見て触って、商談して頂く事が可能です。（駐車場・Wifi完備）<br /> また2022年時点で3年目となる「買取サービス」も多くの方にご利用頂いております。プロの査定士による、無料査定。是非お気軽にご利用ください。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img src="syouhinkannri.jpg" alt="商品在庫" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">商品管理事業部</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>検品、真贋、出荷、撮影、棚卸し業務を中心として、品質管理及び在庫管理を行っております。お客様のことを第一に考え安心かつご満足頂ける商品提供を目的として取り組んでいる事業部です。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img src="syuuri.jpg" alt="修理業務をしている人" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">修理事業部</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>弊社でご購入頂いた商品に限らず、様々なニーズに合わせて修理を承ります。バッグ・財布・アクセサリー・時計など多数の実績があり、ご好評を頂いております。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img src="ec.jpg" alt="デスクでPCを操作している社員" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">EC事業部</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>2022年時点で、楽天市場(2店舗)・Yahoo!ショッピング･BUYMA・aupay market・Amazon・ヤフーオークション･ebayの計8店舗を運営しております。インターネットを通じてお客様に「笑顔を届けたい」という想いでスタッフ一同、同じ目標に向かって一丸となり運営しております。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp">
+<figure class="m25_pc m20_tablet m15_sp"><a href="service.html"><img style="width: 346.656px;" src="240201_springvisual_04.jpg" alt="ヨンアさん" width="380" height="250" /></a><span style="font-size: 14pt; font-weight: bold; letter-spacing: 0.05em; text-align: center;"><br /><span style="font-size: 18pt;">　　　COEL事業部</span></span></figure>
+</figure>
+<div class="m40_pc m30_tablet m20_sp">
+<p>2018年にローンチ。モデルのヨンアがクリエイティブディレクターを務めるライフスタイルブランド。<br />自社ECを軸に全国百貨店でのPOPUPや卸販売を展開。心ときめくCOELらしいトレンドを取り入れつつ、着心地やシルエットを重視した長く愛されるベーシックアイテムをご提案いたします。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m25_pc m20_tablet m15_sp"><a href="bhstocknavi.html" target="_blank" rel="noopener"><img src="BtoB.jpg" alt="BtoBマーケットプレイス" width="380" height="250" /></a></figure>
+<h2 class="fs140_bold m30_pc m30_tablet m20_sp txt_c">BHストックNavi</h2>
+<div class="m40_pc m30_tablet m20_sp">
+<p>BHストックNaviは、弊社独自のインターネット販売に特化したBtoB専用システムです。会員様がBHストックNaviを通じ、弊社の約3000SKU数の在庫を自社ECサイトに手軽に掲載でき、販売することができます。長年の卸業の経験を活かし、リユース業界やEC業界に新しい未来を切り開いていくシステムです。</p>
+</div>
+</div>
+<!--end--></div>
+<!--end--></div>
+<div class="dlb_btn_w20 mt60_pc mt40_tablet mt30_sp">
+<div class="dlb_btn"><a href="service.html">事業内容一覧はこちら</a></div>
+</div>
+</section>
+<div class="inner m60">
+<div class="m30_pc m30_tablet m25_sp">
+<h2 class="top_title_center_underbar">Brand</h2>
+<p class="top_title_center_underbar_en">取扱ブランド</p>
+</div>
+<div class="dlb_banner_1">
+<div class="col4_432 dlb_banner_block img">
+<div class="col"><img src="brand1.jpg" alt="プラダ" width="240" height="140" /></div>
+<div class="col"><img src="brand2.jpg" alt="マイケルコース" width="240" height="140" /></div>
+<div class="col"><img src="brand3.jpg" alt="モンクレール" width="240" height="140" /></div>
+<div class="col"><img src="brand4.jpg" alt="ルイヴィトン" width="240" height="140" /></div>
+<div class="col"><img src="brand5.png" alt="グッチ" width="315" height="160" /></div>
+</div>
+</div>
+<div class="dlb_btn_w20 mt60_pc mt40_tablet mt30_sp">
+<div class="dlb_btn"><a href="brand.html">一覧はこちら</a></div>
+</div>
+</div>
+<div class="inner m80_pc m60_tablet m40_sp">
+<div class="m30_pc m30_tablet m25_sp">
+<h2 class="top_title_center_underbar">Media</h2>
+<p class="top_title_center_underbar_en">新着情報</p>
+</div>
+<div class="dlb_media_01_area">
+
+
+
+<a class="dlb_media_block" href="https://www.bighit.co.jp/media/attention/a64">
+    <div class="dlb_media_left">
+        <div class="dlb_media_left_in" style="background-image: url(1229～15.jpg);"><!--画像--></div>
+    </div>
+    <div class="dlb_media_right">
+        <time class="dlb_media_time">2024/12/24</time>
+        <h3 class="dlb_media_title">年末年始休業のお知らせ</h3>
+        <p class="dlb_media_txt">平素は格別のお引立てを賜り、厚く御礼申し上げます。誠に勝手ながら、以下の期間を年末年始休業とさせてい...</p>
+                    <div class="dlb_media_cate">
+                <span class="id_attention">
+                                        お知らせ                                    </span>
+            </div>
+            </div>
+</a>
+
+
+<a class="dlb_media_block" href="https://www.bighit.co.jp/media/attention/a63">
+    <div class="dlb_media_left">
+        <div class="dlb_media_left_in" style="background-image: url(1128催事バナー.jpg);"><!--画像--></div>
+    </div>
+    <div class="dlb_media_right">
+        <time class="dlb_media_time">2024/11/28</time>
+        <h3 class="dlb_media_title">【半期に一度！】BIG HIT SUPER SALE★</h3>
+        <p class="dlb_media_txt">こんにちは！ビッグヒット スタッフです！明日29日(金) ～12/1日(日)の3日間､10:00-1...</p>
+                    <div class="dlb_media_cate">
+                <span class="id_attention">
+                                        お知らせ                                    </span>
+            </div>
+            </div>
+</a>
+
+
+<a class="dlb_media_block" href="https://www.bighit.co.jp/media/attention/a61">
+    <div class="dlb_media_left">
+        <div class="dlb_media_left_in" style="background-image: url(popup_umeda2411.jpg);"><!--画像--></div>
+    </div>
+    <div class="dlb_media_right">
+        <time class="dlb_media_time">2024/10/17</time>
+        <h3 class="dlb_media_title">阪急うめだ本店 POP-UP STORE開催のお知らせ</h3>
+        <p class="dlb_media_txt">阪急うめだ本店でのPOP-UP STOREの開催が決定いたしました！24’AUTUMN/WINTER...</p>
+                    <div class="dlb_media_cate">
+                <span class="id_attention">
+                                        お知らせ                                    </span>
+            </div>
+            </div>
+</a>
+
+
+<a class="dlb_media_block" href="https://www.bighit.co.jp/media/attention/a60">
+    <div class="dlb_media_left">
+        <div class="dlb_media_left_in" style="background-image: url(popup_daimaru241030.jpg);"><!--画像--></div>
+    </div>
+    <div class="dlb_media_right">
+        <time class="dlb_media_time">2024/10/15</time>
+        <h3 class="dlb_media_title">大丸東京 POP-UP STORE開催のお知らせ</h3>
+        <p class="dlb_media_txt">東京大丸でのPOP-UP STOREの開催が決定いたしました！24’AUTUMN/WINTER CO...</p>
+                    <div class="dlb_media_cate">
+                <span class="id_attention">
+                                        お知らせ                                    </span>
+            </div>
+            </div>
+</a>
+
+
+
+</div>
+<div class="dlb_btn_w20 mt60_pc mt40_tablet mt30_sp">
+<div class="dlb_btn"><a href="/media/">一覧はこちら</a></div>
+</div>
+</div>
+<section class="inner dlb_box2-8_area m100_pc m80_tablet m60_sp">
+<div class="dlb_box2-8_txt">
+<div class="dlb_box2-8_txt_in">
+<div class="dlb_box2-8_txt_inin">
+<h2 class="dlb_box2-8_title">Recruit</h2>
+<p class="fs_bold txt_color_key m30_pc m25_tablet m20_sp txt_c">採用情報</p>
+<p>ビッグヒットでは社員になるみなさんの成長をサポートするための研修・教育制度、日々いきいきと健康に働けるような福利厚生制度を整え、みなさんの入社をお待ちしています。</p>
+<div class="dlb_btn_w100 mt10">
+<div class="dlb_btn"><a href="recruit.html">詳細はこちら</a></div>
+</div>
+</div>
+</div>
+</div>
+<figure class="dlb_box2-8_img img"><img src="top-re2.jpg" alt="採用情報" width="5472" height="3648" /></figure>
+</section>
+<section class="inner dlb_box2-1_area">
+<div class="col2_m_221 img"><!--start-->
+<div class="col">
+<figure class="m30_pc m25_tablet m20_sp">
+<div class="white-bg"><a href="company.html"><img src="company.jpg" alt="会社概要" width="550" height="300" /></a></div>
+</figure>
+<h2 class="fs160_bold txt_c"><a href="company.html">会社概要</a></h2>
+</div>
+<!--end--> <!--start-->
+<div class="col">
+<figure class="m30_pc m25_tablet m20_sp">
+<div class="white-bg"><a href="contact.html"><img src="contact.jpg" alt="お問い合わせ" width="550" height="300" /></a></div>
+</figure>
+<h2 class="fs160_bold txt_c"><a href="contact.html">お問い合わせ</a></h2>
+</div>
+<!--end--></div>
+</section>
+
+		</div>
+		<!-- // ブロック -->
+	</div>
+	<!-- // ブロック貼り付けエリア -->
+	
+	</main>
+	<footer class="template_c2" role="presentation">
+<div id="footer_lead">
+<div class="footer_lead_block inner">
+<div class="footer_logo"><a href="/"><img src="会社ロゴ" alt="PONTA SCHOOL" width="424" height="127" /></a></div>
+</div>
+</div>
+<div id="footer_nav">
+<div class="footer_nav_block inner">
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="/">Top</a></p>
+<p class="fnav_title"><a href="company.html">Company</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="service.html">Service</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="brand.html">Brand</a></p>
+<p class="fnav_title"><a href="/media/">Media</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="contact.html">Contact</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer_info">
+<div class="inner">
+<div class="footer_info_navi"><a href="privacy.html">Privacy Policy</a><a href="sitemap.html">Site Map</a></div>
+<!-- <small>Copyright © 2022 BIGHIT Inc. All rights reserved.</small> -->
+</div>
+</div>
+</footer>
+
+</body>
+</html>

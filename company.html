@@ -1,0 +1,565 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>会社情報｜PONTA SCHOOL</title>
+<meta name="keywords" content="会社概要,沿革,アクセス,PONTA SCHOOL" />
+<meta name="description" content="PONTA SCHOOLの会社情報について、ご紹介しております。会社概要、沿革、アクセスなどを掲載しております。" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="index.html" />
+<meta property="og:site_name" content="インポートブランド総合卸　PONTA SCHOOL ｜ブランド・バッグ・財布・アクセサリー" />
+<meta property="og:image" content="template_c2_top_main01_bg.jpg" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSCN8RF');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="layout.css" />
+<link rel="stylesheet" href="template_c2.css" />
+<link rel="stylesheet" href="color.css" />
+<link rel="stylesheet" href="slick.css" />
+<link rel="stylesheet" href="custom.css" />
+
+<script src="jquery-1.11.1.min.js"></script>
+<script src="current.js"></script>
+<script src="scrolltopcontrol.js"></script>
+<script>
+var lh = "";
+  lh = location.href;
+if (lh.match(/dcmsadm/)){
+} else {
+  document.write('<link rel="stylesheet" href="publicside.css" />');
+  $(document).ready(function(){
+    $('#pagetitle').insertBefore('main.inner');
+    $('.matchH').matchHeight();
+    $('.matchH2').matchHeight();
+    $('.matchH3').matchHeight();
+    $('.dlb_subtitle4_02').matchHeight();
+    $("header.template_c2 .gnavi_btn_sp").on("click", function() {
+      $("header.template_c2 .gnavi_area").slideToggle();
+      $("header.template_c2 .gnavi_btn_sp").toggleClass("active");
+    });
+    var $win = $(window);
+    $win.on('load resize',function(){
+      var windowWidth = window.innerWidth;
+      if(windowWidth <= 768){
+        $('header.template_c2 .gnavi_area').insertAfter('#header_area');
+      } else {
+        $('header.template_c2 .gnavi_area').insertAfter('#header_logo');
+      }
+      if(windowWidth <= 980){
+        $(".sp_btn").on("click", function() {
+          $("#subnav_list").slideToggle();
+          $(".sp_btn").toggleClass("active");
+        });
+      }
+    });
+    $('a[href^=#]').click(function() {
+      var speed = 300; // ミリ秒
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+    });
+  });
+  if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
+    $(function() {
+      $('.tel').each(function() {
+        var str = $(this).html();
+        if ($(this).children().is('img')) {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
+          } else {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
+        }
+      });
+    });
+  }
+  var agent = window.navigator.userAgent.toLowerCase();
+  var ipad = agent.indexOf('ipad') > -1 || agent.indexOf('macintosh') > -1 && 'ontouchend' in document;
+  if(ipad == true){
+          $(function() {
+        $('.tel').each(function() {
+          var str = $(this).html();
+          if ($(this).children().is('img')) {
+            $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
+            } else {
+            $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
+          }
+        });
+      });
+  }else{
+  }
+}
+</script>
+
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" href="perfect-scrollbar.css">
+<!--<script src="/dcms_media/js/perfect-scrollbar.jquery.js"></script>-->
+
+<script>
+var lh = "";
+    lh = location.href;
+    if (lh.match(/dcmsadm/)){
+    } else {
+    $(document).ready(function(){
+        //biggerlink
+        $('.biglink').biggerlink();    
+        //Scrollbar
+        $('.rss_f_in').perfectScrollbar();
+        //subnav
+        var $win = $(window);
+        $win.on('load resize',function(){
+            var windowWidth = window.innerWidth;
+            if(windowWidth <= 980){
+                $("#subnav.sb_col2_accordion .sp_btn").on("click", function() {
+                    var windowWidth = window.innerWidth;
+                    $("#subnav.sb_col2_accordion #subnav_list").slideToggle();
+                    $("#subnav.sb_col2_accordion .sp_btn").toggleClass("active");
+                });
+            }
+        });
+    });
+    }
+</script>
+<!--構造化データ-->
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "Organization",
+    "name" : "PONTA SCHOOL",
+"foundingDate":"1995-02-10",//設立年 
+    "description" : "PONTA SCHOOLの会社情報について、ご紹介しております。会社概要、沿革、アクセスなどを掲載しております。",
+    "url" : "company.html",
+"image": {
+    "@type": "ImageObject",
+    "url": "company_header.jpg",
+    "height": 800,
+    "width": 2000
+  },
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "岸和田市",
+        "addressRegion": "大阪府",
+        "postalCode": "586-0004",
+        "streetAddress": "荒木町2-8-11シャーメゾンジン107号室",
+        "addressCountry": "JP"
+    }
+   }
+</script>
+
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="color_blockdl.css" />
+
+<script defer src="https://trace.bluemonkey.jp/trace.js"></script>
+</head>
+
+<body id="common" class="page_company">
+	<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSCN8RF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><header class="template_c2" role="presentation">
+<div id="header">
+<div id="header_area">
+<div id="header_logo"><a href="/"><img src="会社ロゴ" alt="PONTA SCHOOL" width="424" height="127" /></a></div>
+<div class="gnavi_btn_sp">
+<div class="gnavi_btn_sp_in"><span class="dmy"><!--btn--></span> <span class="dmy"><!--btn--></span> <span class="dmy"><!--btn--></span></div>
+<p class="open">メニュー</p>
+<p class="close">閉じる</p>
+</div>
+<div class="gnavi_area"><nav>
+<ul>
+<li><a href="">Top</a></li>
+<li><a href="company.html">Company</a></li>
+<li><a href="service.html">Service</a></li>
+<li><a href="brand.html">Brand</a></li>
+<li><a href="media/">Media</a></li>
+<li><a href="recruit.html">Recruit</a></li>
+</ul>
+<div class="gnavi_contact"><a href="contact.html"><span class="txt">Contact</span></a></div>
+<div class="header_sns_sp"><a href="https://www.instagram.com/select_bh.co/" target="_blank" rel="noopener"><img src="instagram.png" alt="instagram" /></a> <a href="https://www.facebook.com/big.hit.shping" target="_blank" rel="noopener"><img src="facebook.png" alt="facebook" /></a> <a class="aacd" href="https://www.aacd.gr.jp/" target="_blank" rel="noopener"><img src="aacd_logo.png" alt="一般社団法人日本流通自主管理協会" /></a></div>
+<!--<div class="gnavi_contact no2"><a href="/contact.html"><span class="txt">体験版お申込み</span></a></div>--></nav></div>
+<div id="contact_area"><a href="contact.html"><span class="txt">Contact</span> </a></div>
+<div class="header_sns"><a href="https://www.instagram.com/select_bh.co/" target="_blank" rel="noopener"><img src="instagram.png" alt="instagram" /></a> <a href="https://www.facebook.com/big.hit.shping" target="_blank" rel="noopener"><img src="facebook.png" alt="facebook" /></a> <a class="aacd" href="https://www.aacd.gr.jp/" target="_blank" rel="noopener"><img src="aacd_logo.png" alt="一般社団法人日本流通自主管理協会" /></a></div>
+<!--<div id="contact_area2"><a href="/contact.html"><span class="txt">体験版お申込み</span> </a>--></div>
+</div>
+</header>
+
+	<div id="locator_template_c2">
+		<ol class="inner" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="index.html" itemprop="item"><span itemprop="name">PONTA SCHOOL</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">会社情報</span><meta itemprop="position" content="2" /></li></ol>
+	</div>
+	<main id="container">
+		
+		<!-- ブロック貼り付けエリア -->
+		<div id="dcms_layoutPageBlockPasteArea">
+		<!-- ブロック -->
+		<div id="dcms_layoutPageBlock">
+		<div id="pagetitle" class="template_c2" style="background-image: url('/dcms_media/image/company_header.jpg');">
+<div class="pagetitle_bg"><!--黒透過--></div>
+<div class="pagetitle_block">&nbsp;</div>
+</div>
+<div class="inner m100_pc m80_tablet m60_sp">
+<ul class="menu_btn_332 matchmenu"><!--矢印テキスト下d332 矢印テキスト左横332-->
+<li><a href="#policy">企業方針</a></li>
+<li><a href="#message">代表メッセージ</a></li>
+<li><a href="#compliance">コンプライアンス</a></li>
+<li><a href="#company">会社概要</a></li>
+<li><a href="#history">沿革</a></li>
+<li><a href="#access">アクセス</a></li>
+</ul>
+</div>
+<div id="policy" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">企業方針</h2>
+<p class="dlb_subtitle2_08_jp">Corporate policy</p>
+</div>
+<div class="dlb_content-35 m80_pc m60_tablet m40_sp"><!--start-->
+<div class="col2_221 inner">
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18pt;">顧客第一主義</span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>お客様の満足度を考え、</p>
+<p class="mt5">期待にお応えできる様、心のこもった質の高い仕事を目指します。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18pt;">独創性</span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>時代の流れを見据えて、新しいアイディア・視点から社会意義のある新たな価値を創造し、</p>
+<p class="mt5">社会的に変化をもたらす商品を開発します。</p>
+</div>
+</div>
+<!--end--> <!--start-->
+<div class="dlb_c35_block">
+<div class="dlb_c35_l dlb_c35_mh">
+<p class="dlb_color_base_text"><span style="font-size: 18pt;">相互信頼関係</span></p>
+</div>
+<div class="dlb_c35_r dlb_c35_mh">
+<p>社内の風通しが良く、やる気の出る職場を創り、</p>
+<p class="mt5">お客様からも信頼され、期待される企業を目指します。</p>
+</div>
+</div>
+<!--end--></div>
+</div>
+<div id="message" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">代表メッセージ</h2>
+<p class="dlb_subtitle2_08_jp">Message</p>
+</div>
+<div class="col2_221 inner">
+<section class="dlb_box2-3_area dlb_box2-3-ti m80_pc m60_tablet m40_sp">
+<h3 class="dlb_subtitle3_02 dlb_box2-3_title">信頼、PONTA SCHOOLのブランドです。</h3>
+<figure class="dlb_box2-3_img img"><img src="template_c2_top_main02_bg.jpg" alt="メッセージ" width="400" /></figure>
+<div class="dlb_box2-3_txt">
+<p class="m15">豊かな情報が充実した時代の中で、人の価値観も多様化してきました。<br />ファッションとは、人の第一印象を決める大きな要因のひとつであり、その人のステータスでもあります。自分に合ったファッションを身に付けることによって、気持ちを豊かにしたり、元気をくれたり、和ませてくれたりします。そのお手伝いをするのが私たちの使命だと確信しております。<br /><br /></p>
+<p>現在のマーケットでは、人の価値観や感性により様々な好みがあることを理解し、多種多様な商品が販売されております。その溢れんばかりの情報や商品に、お客様が戸惑うケースも増えてきているのも事実です。本当の商品価値は、我々売り手が決めることではなく、実際に購入される消費者が決めることだと思っています。そこで弊社は、常にお客様の要望や声に耳を傾け、お客様が安心して商品を購入できる様な商品の提案や企画を行っていきます。<br />お客様に親しまれ、かつ信頼される企業として成長することを目標とします。</p>
+<br />
+<div style="float: right;"><img src="代表写真" alt="代表署名" width="214" height="30" /></div>
+</div>
+</section>
+</div>
+<section class="dlb_interactive-1_area bg_gray m80_pc m60_tablet m40_sp">
+<div id="compliance" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">コンプライアンス</h2>
+<p class="dlb_subtitle2_08_jp">Compliance</p>
+</div>
+<div class="col2_221 inner">
+<div class="dlb_content-31 m80_pc m60_tablet m40_sp">
+<h3 class="dlb_c31_title"><span style="font-size: 14pt;"><strong><span style="color: #333399;">PONTA SCHOOL　コンプライアンス基本方針</span></strong></span></h3>
+<p>PONTA SCHOOLは企業理念を「信頼」として、社会的使命を常に自覚しながら法令遵守はもとより社会の信頼に応える　　　　　<br /> 高い倫理観をもって、コンプライアンス経営を推進します。</p>
+</div>
+<div class="dlb_content-31">
+<h3 class="dlb_c31_title"><span style="color: #333399; font-size: 14pt;">PONTA SCHOOL　コンプライアンス行動方針</span></h3>
+<p><strong>（１）法令の遵守</strong><br />社会の一員として高い倫理観を持ち、法令および社会ルールを厳格に遵守いたします。<br /><br /><strong>（２）知的財産権の尊重</strong><br />他人が有する「知的財産権」を侵害いたしません。<br /><br /><strong>（３）輸入関税</strong><br />適切な輸入手続きを行ないます。<br /><br /><strong>（４）不正商品の流通禁止</strong><br />偽造・模造商品は、決して仕入および販売はいたしません。<br /><br /><strong>（５）不正商品排除</strong><br />偽造商品排除の為に、情報を提供および開示し、貢献いたします。<br /><br /><strong>（６）情報管理</strong><br />個人情報・業務上の情報の重要性を認識し、保護・管理をいたします。<br /><br /><strong>（７）社会貢献・環境保護</strong><br />社会に貢献し、地球環境の保護に配慮した行動を努めます。<br /><br /><strong>（８）社内規程の遵守</strong><br />社内規程を遵守し、公私にわたり良識に従って行動いたします。<br /><br /><strong>（９）従業員の育成</strong><br />社員が能力を最大限発揮できるように、人格・個性を尊重し、安心して働きやすい職場環境を創り、育成していきます。<br /><br /><strong>（10）人権の尊重</strong><br />人権を尊重し、いかなる差別も認めません。</p>
+</div>
+</div>
+</section>
+<div id="company" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">会社概要</h2>
+<p class="dlb_subtitle2_08_jp">Company</p>
+</div>
+<div class="col2_221 inner">
+<div class="m70_pc m50_tablet m30_sp">
+<table class="dlb_table_01 dlb_color_table_tdfirst_bg bg_blue">
+<tbody>
+<tr>
+<td class="dlb_color_txt_white">会社名</td>
+<td>PONTA SCHOOL</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">所在地</td>
+<td>〒134-0088 大阪府岸和田市荒木町2-8-11シャーメゾンジン107号室　
+  <!-- <br/>TEL <a href="tel:03-5675-1731">03-5675-1731</a>　FAX 03-5675-1733 -->
+</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">代表取締役</td>
+<td>池田　航</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">設立年月日</td>
+<td>平成7年2月10日</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">資本金</td>
+<td>3,000万円</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">従業員数</td>
+<td>40名（パート含む）</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">主な取引先</td>
+<td>全国小売企業・全国卸売企業</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">主な仕入先</td>
+<td>イタリア・フランス・アメリカ・韓国</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">取引金融機関</td>
+<td>千葉銀行　葛西支店<br />三井住友銀行　小岩法人営業部<br />東京東信用金庫　葛西駅前支店<br />朝日信用金庫　葛西支店<br />りそな銀行　小岩支店</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">事業内容</td>
+<td>■ 卸事業部<br />■ リユース事業部<br />■ 商品管理事業部<br />■ 修理事業部<br />■ EC事業部</td>
+</tr>
+<tr>
+<td class="dlb_color_txt_white">取扱品一覧</td>
+<td>■ バッグ<br />■ 財布・小物<br />■ アクセサリー<br />■ ベルト<br />■ スカーフ・マフラー<br />■ アパレル<br />■ ジュース<br />■ ベビー＆キッズ<br />■ 日用品雑貨etc<br />取扱ブランド一覧は<span style="color: #3366ff;"><a style="color: #3366ff;" href="/brand.html">こちら</a></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="history" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">沿革</h2>
+<p class="dlb_subtitle2_08_jp">History</p>
+</div>
+<div class="inner dlb_interactive-5_area m80_pc m60_tablet m40_sp">
+<div class="dlb_interactive_accordion">
+<div class="dlb_interactive_accordion_click dlb_color_senbeftriaue_key dlb_color_senbefarrright_white dlb_color_bgbef_key">
+<div class="txt">
+<p class="fs120">2021年～2030年</p>
+</div>
+</div>
+<div class="dlb_interactive_accordion_answer">
+<div class="txt">
+<p class="fs120_bold m10">2024-2</p>
+<p class="m30">COEL　新宿ルミネ（ルミネ1）に直営店舗をオープン。</p>
+<p class="fs120_bold m10">2024-2</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;"><span lang="EN-US">モデルのヨンアがクリエイティブディレクターを務めるライフスタイルブランド<br /></span>COEL事業を買収。<br />自社ECを軸に全国百貨店でのPOPUPや卸販売を展開。<br /></span></p>
+<p class="fs120_bold m10">2023-6</p>
+<p class="m30">「BHストックNavi」弊社独自のインターネット販売に特化したBtoB専用システムをリリース。</p>
+<p class="m30">&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="dlb_interactive_accordion">
+<div class="dlb_interactive_accordion_click dlb_color_senbeftriaue_key dlb_color_senbefarrright_white dlb_color_bgbef_key">
+<div class="txt">
+<p class="fs120">2011年～2020年</p>
+</div>
+</div>
+<div class="dlb_interactive_accordion_answer">
+<div class="txt">
+<p class="fs120_bold m10">2019-06</p>
+<p class="m30">「リユース事業部」売上・仕入拡大に伴い増員。さらなる拡大を図る。</p>
+<p class="fs120_bold m10">2018-09</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">本社<span lang="EN-US">1F</span>にリユース卸専門のショールームを開設。<span lang="EN-US"><br /> </span>国内・海外バイヤーが来店し実際に商品を見ながら仕入れ可能な</span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">商談スペースとする。</span></p>
+<p class="fs120_bold m10">2017-06</p>
+<p class="m30">新規事業「リユース事業部」立ち上げ。</p>
+<p class="m30">&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="dlb_interactive_accordion">
+<div class="dlb_interactive_accordion_click dlb_color_senbeftriaue_key dlb_color_senbefarrright_white dlb_color_bgbef_key">
+<div class="txt">
+<p class="fs120">2001年～2010年</p>
+</div>
+</div>
+<div class="dlb_interactive_accordion_answer">
+<div class="txt">
+<p class="m30">&nbsp;</p>
+<p class="fs120_bold m10">2010-04</p>
+<p class="m30">アフターサービスの充実として行なってきた修理部門（修理工房）の受付依頼が増加の為、<br />職人を増員し受付を拡大する。</p>
+<p class="m30">&nbsp;</p>
+<p class="fs120_bold m10">2009-10</p>
+<p class="m30">EC事業部　自社サイト<br />ビッグヒット　コンシェルジュをオープン</p>
+<p class="fs120_bold m10">2009-07<br /><br /></p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">第<span lang="EN-US">68</span>回東京インターナショナル<span lang="EN-US"><br /> </span></span><span style="color: #000000;"><span lang="EN-US" style="font-size: 11.5pt; font-family: 游明朝, serif;">Laloro</span><span style="font-size: 11.5pt; font-family: 游明朝, serif;">がファッションギフト部門にて大賞を受賞</span></span></p>
+<p class="fs120_bold m10">2008-06</p>
+<p class="m30">『インポートハウス美波』をリニューアル､<br />本社ビル１Ｆに『アウトレットショップラローロ』をオープン</p>
+<p class="m30"><span style="font-size: 14pt;"><span style="font-size: 12pt;">2008-01</span><br /><br /></span>スワロフスキーJAPANと契約をし、スワロフスキーを使用した、弊社オリジナルブランドLaloro（ラローロ）を立ち上げる。<br />Laloroホームページ開設</p>
+<p class="fs120_bold m10">2006-04</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="color: #000000;"><span style="font-size: 11.5pt; font-family: 游明朝, serif;">弊社</span><span style="font-size: 11.5pt; font-family: 游明朝, serif;">ホームページ</span><span style="font-size: 11.5pt; font-family: 游明朝, serif;">を</span><span style="font-size: 11.5pt; font-family: 游明朝, serif;">リニューアル。</span></span></p>
+<p class="fs120_bold m10">2005-11</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">ネット通販の需要が増えたため、</span><span style="color: #000000;"><span lang="EN-US" style="font-size: 11.5pt; font-family: 游明朝, serif;">EC</span><span style="font-size: 11.5pt; font-family: 游明朝, serif;">事業部</span></span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">を拡大する。</span></p>
+<p class="fs120_bold m10">2005-05</p>
+<p class="m30">新社屋完成のため、本社事務所移転(350坪)</p>
+<p class="fs120_bold m10">2004-11</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">イタリア仕入を拡大のため、イタリア事務所を移転</span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">拡大</span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">する。</span></p>
+<p class="fs120_bold m10">2003-10</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span lang="EN-US" style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">EC</span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">事業部設立し、</span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">インターネット販売</span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">事業を開始する。</span></p>
+<p class="fs120_bold m10">2003-10</p>
+<p class="m30">EC事業部設立し、ネット事業を開始する。</p>
+<p class="fs120_bold m10">2003-06</p>
+<p class="m30">商品動向や売れ筋商品をリサーチするために、<br />有限会社ハッピーフロッグを設立する。</p>
+</div>
+<p class="fs120_bold m10">2002-08</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">仕入強化のために日本より駐在員を派遣在住させ、イタリアミラノ事務所を開設する。</span></p>
+<p class="m30"><br /><span style="color: #000000;"><strong><span lang="EN-US" style="font-size: 13.5pt; font-family: 游明朝, serif;"><span style="font-size: 12pt;">2001-03<br /></span><br /></span></strong></span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">検品業務を強化するために、有限会社チェックヤードを設立する。</span></p>
+</div>
+</div>
+<div class="dlb_interactive_accordion">
+<div class="dlb_interactive_accordion_click dlb_color_senbeftriaue_key dlb_color_senbefarrright_white dlb_color_bgbef_key">
+<div class="txt">
+<p class="fs120">1995年～2000年</p>
+</div>
+</div>
+<div class="dlb_interactive_accordion_answer">
+<div class="txt">
+<p class="fs120_bold m10">2000-09</p>
+<p class="m30">当社ホームページを開設する。<br />従来の一斉FAXサービスに加え、Eメールによる配信を開始する。</p>
+<p class="fs120_bold m10">2000-06</p>
+<p class="m30">本社事務所を移転(204坪)</p>
+<p class="fs120_bold m10">2000-01</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">当社独自の検品及び真贋マニュアルを作成すると共に、<br /></span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: red;"><span style="color: #000000;">日本流通自主管理協会のマニュアルを併用し、</span></span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">倉庫の検品者を増員し、より一層の検品体制を強化する。</span></p>
+<p class="fs120_bold m10">1999-03</p>
+<p class="m30">日本流通自主管理協会の理事会社となる。</p>
+<p class="fs120_bold m10">1998-08</p>
+<p class="m30">景気も一向に回復する兆しも見えぬ状況下、各企業では不良在庫及び<br />不良品在庫を多数抱えているとの声を聞き、各企業の要望に応えるようリサイクル部門を設立し、<br />不良在庫等の査定買取りを行い、独自のルートで販売し各企業より評価される。<br /><br /><span style="font-size: 14pt;">1998-07</span></p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">日本流通自主管理協会（<span lang="EN-US">AACD</span>）の偽造品排除目的で会員に配布するマニュアル作成を行うマニュアル委員会に参加する。</span></p>
+<p class="fs120_bold m10">1998-04</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">並行輸入市場におけるブランド品の偽造品問題が各新聞紙上・<span lang="EN-US">TV</span>を賑わす中、弊社としても「偽造品問題」に最重点を置き、並行輸入市場より偽造品排除を目的として、設立された日本流通自主管理協会（<span lang="EN-US">AACD</span>）に加盟し、偽造品排除徹底的に追求し、排除する姿勢を明確にし、設立メンバー会社となる。</span></p>
+<p class="fs120_bold m10">1997-06</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">バブル崩壊の影響を引き摺りインポート業界にもその波が押し寄せ、軒並み小売店の売上は平年を下回り、顧客獲得に悪戦苦闘する。そこで</span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">弊社独自の</span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">アフターサービスの充実を目指し、修理部門<span lang="EN-US">(</span>修理工房<span lang="EN-US">)</span>を設立、確かな職人たちの手によるトータル的な修理を心がけ、数多くの小売業及びに卸売企業より支持を受ける。</span></p>
+<p class="fs120_bold m10">1997-05</p>
+<p class="m30">本社事務所及びに自社アンテナショップを移転(150坪)</p>
+<p class="fs120_bold m10">1996-01</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">定期的に取引企業様へ売れ筋商品のみの一斉<span lang="EN-US">FAX</span>無料サービスを<span style="color: #000000;">開始し、<span lang="EN-US"><br /> </span>当社と三位一体の方法にて、より早く、より確実な商品供給体制</span></span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">を構築する。</span></p>
+<p class="fs120_bold m10">1995-10</p>
+<p class="m30">市場に流通する偽造品があまりに多い為、『真贋問題』を最重要視し、<br />独自の仕入ルートを確立するとともに、ヨーロッパ直営店より買付け仕入れを強化する。</p>
+<p class="fs120_bold m10">1995-04</p>
+<p class="m30">自社アンテナショップ<br />『インポートハウス美波』をオープンする。(30坪)</p>
+<p class="fs120_bold m10">1995-02</p>
+<p class="m30" style="background: whitesmoke; margin: 0mm 0mm 22.5pt 0mm;"><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">会社設立以来、常に有名トップブランドの</span><span style="font-size: 11.5pt; font-family: 游明朝, serif; color: #000000;">商品改革</span><span style="font-size: 11.5pt; font-family: '游明朝',serif; color: black;">を実施し、<span lang="EN-US"><br /> </span>販売企画、商品企画を前向きに促進していく。</span></p>
+</div>
+<p class="m30">&nbsp;</p>
+</div>
+</div>
+</div>
+<div id="access" class="dlb_subtitle2_08 inner">
+<h2 class="dlb_subtitle2_08_en">アクセス</h2>
+<p class="dlb_subtitle2_08_jp">Access</p>
+</div>
+<div class="inner dlb_map_area dlb_area_1 m80_pc m60_tablet m40_sp">
+<div class="col2_m_221">
+<div class="col"><!-- [iframe内widthの数値を100%へ変更します]--> <iframe  allowfullscreen="allowfullscreen" frameborder="0" height="320" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.1301505948013!2d135.39415933191776!3d34.47422243450119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c5005a4ffebd%3A0x6bf8893e9525b45a!2z44K344Oj44O844Oh44K-44Oz44K444Oz!5e0!3m2!1sja!2sjp!4v1739089541157!5m2!1sja!2sjp"  style="border: 0;" width="100%"></iframe>
+<p class="txt_link arr mt10"><a href="https://maps.app.goo.gl/ppjJVwn25CcHMYn87" target="_blank" rel="noopener">Google map（拡大地図）で見る</a></p>
+</div>
+<div class="col">
+<div class="m25 m15_sp">
+<p>〒586-0004　<br />大阪府岸和田市荒木町2-8-11シャーメゾンジン107号室　
+  <!-- <br /><br />TEL <a href="tel:03-5675-1731">03-5675-1731</a>　<br />FAX 03-5675-1733</p> -->
+</div>
+<!-- <div class="dlb_color_bg_gray dlb_map_bg">
+<p class="fs120_bold m10">最寄り駅より</p>
+<p>「西葛西駅」南口徒歩15分(東西線)</p>
+<p>「葛西駅」北口徒歩15分(東西線)</p>
+</div> -->
+</div>
+</div>
+</div>
+<div class="dlb_content-55 m80_pc m60_tablet m40_sp inner"><!--start-->
+<div class="dlb_c55_block" style="border-color: #cccccc;">
+<div class="circle_img">
+<figure class="dlb_c55_img img"><img src="brand.jpg" alt="取扱ブランド" width="100" height="100" /></figure>
+</div>
+<div class="dlb_c55_txt">
+<p class="m10 fs150_bold"><a href="brand.html">取扱いブランド一覧を見る</a></p>
+<p>PONTASCHOOLが取り扱っているブランドを一覧にて、掲載しております。<br />詳しい情報をご覧になりたいからは左のアイコンをクリックください。</p>
+</div>
+</div>
+<!--end--></div>
+
+		</div>
+		<!-- // ブロック -->
+		</div>
+		<!-- // ブロック貼り付けエリア -->
+		
+	</main>
+	<footer class="template_c2" role="presentation">
+<div id="footer_lead">
+<div class="footer_lead_block inner">
+<div class="footer_logo"><a href="/"><img src="会社ロゴ" alt="PONTA SCHOOL" width="424" height="127" /></a></div>
+</div>
+</div>
+<div id="footer_nav">
+<div class="footer_nav_block inner">
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="/">Top</a></p>
+<p class="fnav_title"><a href="company.html">Company</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="service.html">Service</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="brand.html">Brand</a></p>
+<p class="fnav_title"><a href="media.html">Media</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="contact.html">Contact</a></p>
+</div>
+</div>
+<!-- 1列に2つ入れたとき--> <!--<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="#">テキストリンク</a></p>
+<p class="fnav_title"><a href="#">テキストリンク</a></p>
+<ul class="fnav_list">
+<li><a href="#">テキストリンクテキストリンクテキストリンクテキストリンク</a></li>
+<li><a href="#">テキストリンクテキストリンク</a></li>
+</ul>
+<p class="fnav_title"><a href="#">テキストリンク</a></p>
+</div>
+</div>
+<div class="fnav_unit">
+<div class="fnav_unit_one">
+<p class="fnav_title"><a href="#">テキストリンク</a></p>
+<ul class="fnav_list">
+<li><a href="#">テキストリンクテキストリンク</a></li>
+<li><a href="#">テキストリンクテキストリンク</a></li>
+</ul>
+</div>
+</div> --></div>
+</div>
+<div id="footer_info">
+<div class="inner">
+<div class="footer_info_navi"><a href="privacy.html">Privacy Policy</a><a href="sitemap.html">Site Map</a></div>
+<!-- <small>Copyright © 2022 BIGHIT Inc. All rights reserved.</small> -->
+</div>
+</div>
+</footer>
+
+	</body>
+	<!-- Corporate Ver 02 (creation month 2018.05)-->
+	<!-- installation date 2019.02.22 -->
+</html>

@@ -1,0 +1,1617 @@
+@charset "UTF-8";
+/* ===================================================================
+CSS information
+ file name  :  color_blockdl.css
+ style info :  ブロックダウンロード用 cssの定義
+=================================================================== */
+/* 背景 background -------------------------*/
+.dlb_color_bg_key, .dlb_color_bg_key a { background-color: #0075C2; }
+
+.dlb_color_bg_pink, .dlb_color_bg_pink a { background-color: #ffc0cb; }
+
+.dlb_color_bg_red, .dlb_color_bg_red a { background-color: #ff0000; }
+
+.dlb_color_bg_orange, .dlb_color_bg_orange a { background-color: #ff4500; }
+
+.dlb_color_bg_yellow, .dlb_color_bg_yellow a { background-color: #ffff00; }
+
+.dlb_color_bg_yellowgreen, .dlb_color_bg_yellowgreen a { background-color: #9acd32; }
+
+.dlb_color_bg_green, .dlb_color_bg_green a { background-color: #008000; }
+
+.dlb_color_bg_skyblue, .dlb_color_bg_skyblue a { background-color: #87ceeb; }
+
+.dlb_color_bg_blue, .dlb_color_bg_blue a { background-color: #0000ff; }
+
+.dlb_color_bg_purple, .dlb_color_bg_purple a { background-color: #800080; }
+
+.dlb_color_bg_white, .dlb_color_bg_white a { background-color: #ffffff; }
+
+.dlb_color_bg_black, .dlb_color_bg_black a { background-color: #000000; }
+
+.dlb_color_bg_gray, .dlb_color_bg_gray a { background-color: #f5f5f5; }
+
+.dlb_color_bg_key > a:hover { color: #0075C2; }
+
+.dlb_color_bg_pink > a:hover { color: #ffc0cb; }
+
+.dlb_color_bg_red > a:hover { color: #ff0000; }
+
+.dlb_color_bg_orange > a:hover { color: #ff4500; }
+
+.dlb_color_bg_yellow > a:hover { color: #ffff00; }
+
+.dlb_color_bg_yellowgreen > a:hover { color: #9acd32; }
+
+.dlb_color_bg_green > a:hover { color: #008000; }
+
+.dlb_color_bg_skyblue > a:hover { color: #87ceeb; }
+
+.dlb_color_bg_blue > a:hover { color: #0000ff; }
+
+.dlb_color_bg_purple > a:hover { color: #800080; }
+
+.dlb_color_bg_white > a:hover { color: #ffffff; }
+
+.dlb_color_bg_black > a:hover { color: #000000; }
+
+.dlb_color_bg_gray > a:hover { color: #f5f5f5; }
+
+/* 線 border -------------------------*/
+.dlb_color_sen_key, .dlb_color_sen_key a { border-color: #0075C2; }
+
+.dlb_color_sen_pink, .dlb_color_sen_pink a { border-color: #ffc0cb; }
+
+.dlb_color_sen_red, .dlb_color_sen_red a { border-color: #ff0000; }
+
+.dlb_color_sen_orange, .dlb_color_sen_orange a { border-color: #ff4500; }
+
+.dlb_color_sen_yellow, .dlb_color_sen_yellow a { border-color: #ffff00; }
+
+.dlb_color_sen_yellowgreen, .dlb_color_sen_yellowgreen a { border-color: #9acd32; }
+
+.dlb_color_sen_green, .dlb_color_sen_green a { border-color: #008000; }
+
+.dlb_color_sen_skyblue, .dlb_color_sen_skyblue a { border-color: #87ceeb; }
+
+.dlb_color_sen_blue, .dlb_color_sen_blue a { border-color: #0000ff; }
+
+.dlb_color_sen_purple, .dlb_color_sen_purple a { border-color: #800080; }
+
+.dlb_color_sen_white, .dlb_color_sen_white a { border-color: #ffffff; }
+
+.dlb_color_sen_black, .dlb_color_sen_black a { border-color: #000000; }
+
+.dlb_color_sen_gray, .dlb_color_sen_gray a { border-color: #f5f5f5; }
+
+/* テキスト text-------------------------*/
+.dlb_color_txt_key, .dlb_color_txt_key a { color: #0075C2; }
+
+.dlb_color_txt_pink, .dlb_color_txt_pink a { color: #ffc0cb; }
+
+.dlb_color_txt_red, .dlb_color_txt_red a { color: #ff0000; }
+
+.dlb_color_txt_orange, .dlb_color_txt_orange a { color: #ff4500; }
+
+.dlb_color_txt_yellow, .dlb_color_txt_yellow a { color: #ffff00; }
+
+.dlb_color_txt_yellowgreen, .dlb_color_txt_yellowgreen a { color: #9acd32; }
+
+.dlb_color_txt_green, .dlb_color_txt_green a { color: #008000; }
+
+.dlb_color_txt_skyblue, .dlb_color_txt_skyblue a { color: #87ceeb; }
+
+.dlb_color_txt_blue, .dlb_color_txt_blue a { color: #0000ff; }
+
+.dlb_color_txt_purple, .dlb_color_txt_purple a { color: #800080; }
+
+.dlb_color_txt_white, .dlb_color_txt_white a { color: #ffffff; }
+
+.dlb_color_txt_black, .dlb_color_txt_black a { color: #000000; }
+
+.dlb_color_txt_gray, .dlb_color_txt_gray a { color: #f5f5f5; }
+
+/* before 三角 上 sankaku ue-------------------------*/
+.dlb_color_senbeftriaue_key::before.dlb_color_senbeftriaue_key a::before, .dlb_color_senbeftriaue_key::after.dlb_color_senbeftriaue_key a::after { border-color: transparent transparent #0075C2 transparent; }
+
+.dlb_color_senbeftriaue_pink::before.dlb_color_senbeftriaue_pink a::before, .dlb_color_senafttriaue_pink::after.dlb_color_senafttriaue_pink a::after { border-color: transparent transparent #ffc0cb transparent; }
+
+.dlb_color_senbeftriaue_red::before, .dlb_color_senbeftriaue_red a::before, .dlb_color_senafttriaue_red::after, .dlb_color_senafttriaue_red a::after { border-color: transparent transparent #ff0000 transparent; }
+
+.dlb_color_senbeftriaue_orange::before, .dlb_color_senbeftriaue_orange a::before, .dlb_color_senafttriaue_orange::after, .dlb_color_senafttriaue_orange a::after { border-color: transparent transparent #ff4500 transparent; }
+
+.dlb_color_senbeftriaue_yellow::before, .dlb_color_senbeftriaue_yellow a::before, .dlb_color_senafttriaue_yellow::after, .dlb_color_senafttriaue_yellow a::after { border-color: transparent transparent #ffff00 transparent; }
+
+.dlb_color_senbeftriaue_yellowgreen::before, .dlb_color_senbeftriaue_yellowgreen a::before, .dlb_color_senafttriaue_yellowgreen::after, .dlb_color_senafttriaue_yellowgreen a::after { border-color: transparent transparent #9acd32 transparent; }
+
+.dlb_color_senbeftriaue_green::before, .dlb_color_senbeftriaue_green a::before, .dlb_color_senafttriaue_green::after, .dlb_color_senafttriaue_green a::after { border-color: transparent transparent #008000 transparent; }
+
+.dlb_color_senbeftriaue_skyblue::before, .dlb_color_senbeftriaue_skyblue a::before, .dlb_color_senafttriaue_skyblue::after, .dlb_color_senafttriaue_skyblue a::after { border-color: transparent transparent #87ceeb transparent; }
+
+.dlb_color_senbeftriaue_blue::before, .dlb_color_senbeftriaue_blu a::before, .dlb_color_senafttriaue_blue::after, .dlb_color_senafttriaue_blu a::after { border-color: transparent transparent #0000ff transparent; }
+
+.dlb_color_senbeftriaue_purple::before, .dlb_color_senbeftriaue_purple a::before, .dlb_color_senafttriaue_purple::after, .dlb_color_senafttriaue_purple a::after { border-color: transparent transparent #800080 transparent; }
+
+.dlb_color_senbeftriaue_white::before, .dlb_color_senbeftriaue_white a::before, .dlb_color_senafttriaue_white::after, .dlb_color_senafttriaue_white a::after { border-color: transparent transparent #ffffff transparent; }
+
+.dlb_color_senbeftriaue_black::before, .dlb_color_senbeftriaue_black a::before, .dlb_color_senafttriaue_black::after, .dlb_color_senafttriaue_black a::after { border-color: transparent transparent #000000 transparent; }
+
+.dlb_color_senbeftriaue_gray::before, .dlb_color_senbeftriaue_gray a::before, .dlb_color_senafttriaue_gray::after, .dlb_color_senafttriaue_gray a::after { border-color: transparent transparent #f5f5f5 transparent; }
+
+/* before 三角 下 sankaku shita -------------------------*/
+.dlb_color_senbeftriashita_key::before, .dlb_color_senbeftriashita_key a::before, .dlb_color_senbeftriashita_key::after, .dlb_color_senbeftriashita_key a::after { border-color: #0075C2 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_pink::before, .dlb_color_senbeftriashita_pink a::before, .dlb_color_senafttriashita_pink::after, .dlb_color_senafttriashita_pink a::after { border-color: #ffc0cb transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_red::before, .dlb_color_senbeftriashita_red a::before, .dlb_color_senafttriashita_red::after, .dlb_color_senafttriashita_red a::after { border-color: #ff0000 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_orange::before, .dlb_color_senbeftriashita_orange a::before, .dlb_color_senafttriashita_orange::after, .dlb_color_senafttriashita_orange a::after { border-color: #ff4500 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_yellow::before, .dlb_color_senbeftriashita_yellow a::before, .dlb_color_senafttriashita_yellow::after, .dlb_color_senafttriashita_yellow a::after { border-color: #ffff00 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_yellowgreen::before, .dlb_color_senbeftriashita_yellowgreen a::before, .dlb_color_senafttriashita_yellowgreen::after, .dlb_color_senafttriashita_yellowgreen a::after { border-color: #9acd32 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_green::before, .dlb_color_senbeftriashita_green a::before, .dlb_color_senafttriashita_green::after, .dlb_color_senafttriashita_green a::after { border-color: #008000 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_skyblue::before, .dlb_color_senbeftriashita_skyblue a::before, .dlb_color_senafttriashita_skyblue::after, .dlb_color_senafttriashita_skyblue a::after { border-color: #87ceeb transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_blue::before, .dlb_color_senbeftriashita_blue a::before, .dlb_color_senafttriashita_blue::after, .dlb_color_senafttriashita_blue a::after { border-color: #0000ff transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_purple::before, .dlb_color_senbeftriashita_purple a::before, .dlb_color_senafttriashita_purple::after, .dlb_color_senafttriashita_purple a::after { border-color: #800080 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_white::before, .dlb_color_senbeftriashita_white a::before, .dlb_color_senafttriashita_white::after, .dlb_color_senafttriashita_white a::after { border-color: #ffffff transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_black::before, .dlb_color_senbeftriashita_black a::before, .dlb_color_senafttriashita_black::after, .dlb_color_senafttriashita_black a::after { border-color: #000000 transparent transparent transparent; }
+
+.dlb_color_senbeftriashita_gray::before, .dlb_color_senbeftriashita_gray a::before, .dlb_color_senafttriashita_gray::after, .dlb_color_senafttriashita_gray a::after { border-color: #f5f5f5 transparent transparent transparent; }
+
+/* before 三角 右 sankaku migi-------------------------*/
+.dlb_color_senafttriaright_key::before, .dlb_color_senafttriaright_key a::before, .dlb_color_senafttriaright_key::after, .dlb_color_senafttriaright_key a::after { border-color: transparent transparent transparent #0075C2; }
+
+.dlb_color_senbeftriaright_pink::before, .dlb_color_senbeftriaright_pink a::before, .dlb_color_senafttriaright_pink::after, .dlb_color_senafttriaright_pink a::after { border-color: transparent transparent transparent #ffc0cb; }
+
+.dlb_color_senbeftriaright_red::before, .dlb_color_senbeftriaright_red a::before, .dlb_color_senafttriaright_red::after, .dlb_color_senafttriaright_red a::after { border-color: transparent transparent transparent #ff0000; }
+
+.dlb_color_senbeftriaright_orange::before, .dlb_color_senbeftriaright_orange a::before, .dlb_color_senafttriaright_orange::after, .dlb_color_senafttriaright_orange a::after { border-color: transparent transparent transparent #ff4500; }
+
+.dlb_color_senbeftriaright_yellow::before, .dlb_color_senbeftriaright_yellow a::before, .dlb_color_senafttriaright_yellow::after, .dlb_color_senafttriaright_yellow a::after { border-color: transparent transparent transparent #ffff00; }
+
+.dlb_color_senbeftriaright_yellowgreen::before, .dlb_color_senbeftriaright_yellowgreen a::before, .dlb_color_senafttriaright_yellowgreen::after, .dlb_color_senafttriaright_yellowgreen a::after { border-color: transparent transparent transparent #9acd32; }
+
+.dlb_color_senbeftriaright_green::before, .dlb_color_senbeftriaright_green a::before, .dlb_color_senafttriaright_green::after, .dlb_color_senafttriaright_green a::after { border-color: transparent transparent transparent #008000; }
+
+.dlb_color_senbeftriaright_skyblue::before, .dlb_color_senbeftriaright_skyblue a::before, .dlb_color_senafttriaright_skyblue::after, .dlb_color_senafttriaright_skyblue a::after { border-color: transparent transparent transparent #87ceeb; }
+
+.dlb_color_senbeftriaright_blue::before, .dlb_color_senbeftriaright_blue a::before, .dlb_color_senafttriaright_blue::after, .dlb_color_senafttriaright_blue a::after { border-color: transparent transparent transparent #0000ff; }
+
+.dlb_color_senbeftriaright_purple::before, .dlb_color_senbeftriaright_purple a::before, .dlb_color_senafttriaright_purple::after, .dlb_color_senafttriaright_purple a::after { border-color: transparent transparent transparent #800080; }
+
+.dlb_color_senbeftriaright_white::before, .dlb_color_senbeftriaright_white::before, .dlb_color_senafttriaright_white::after, .dlb_color_senafttriaright_white::after { border-color: transparent transparent transparent #ffffff; }
+
+.dlb_color_senbeftriaright_black::before, .dlb_color_senbeftriaright_black a::before, .dlb_color_senafttriaright_black::after, .dlb_color_senafttriaright_black a::after { border-color: transparent transparent transparent #000000; }
+
+.dlb_color_senbeftriaright_gray::before, .dlb_color_senbeftriaright_gray a::before, .dlb_color_senafttriaright_gray::after, .dlb_color_senafttriaright_gray a::after { border-color: transparent transparent transparent #f5f5f5; }
+
+/* before 三角 左 sankaku hidari-------------------------*/
+.dlb_color_senafttrialeft_key::before, .dlb_color_senafttrialeft_key a::before, .dlb_color_senafttrialeft_key::after, .dlb_color_senafttrialeft_key a::after { border-color: transparent #0075C2 transparent transparent; }
+
+.dlb_color_senbeftrialeft_pink::before, .dlb_color_senbeftrialeft_pink a::before, .dlb_color_senafttrialeft_pink::after, .dlb_color_senafttrialeft_pink a::after { border-color: transparent #ffc0cb transparent transparent; }
+
+.dlb_color_senbeftrialeft_red::before, .dlb_color_senbeftrialeft_red a::before, .dlb_color_senafttrialeft_red::after, .dlb_color_senafttrialeft_red a::after { border-color: transparent #ff0000 transparent transparent; }
+
+.dlb_color_senbeftrialeft_orange::before, .dlb_color_senbeftrialeft_orange a::before, .dlb_color_senafttrialeft_orange::after, .dlb_color_senafttrialeft_orange a::after { border-color: transparent #ff4500 transparent transparent; }
+
+.dlb_color_senbeftrialeft_yellow::before, .dlb_color_senbeftrialeft_yellow a::before, .dlb_color_senafttrialeft_yellow::after, .dlb_color_senafttrialeft_yellow a::after { border-color: transparent #ffff00 transparent transparent; }
+
+.dlb_color_senbeftrialeft_yellowgreen::before, .dlb_color_senbeftrialeft_yellowgreen a::before, .dlb_color_senafttrialeft_yellowgreen::after, .dlb_color_senafttrialeft_yellowgreen a::after { border-color: transparent #9acd32 transparent transparent; }
+
+.dlb_color_senbeftrialeft_green::before, .dlb_color_senbeftrialeft_green a::before, .dlb_color_senafttrialeft_green::after, .dlb_color_senafttrialeft_green a::after { border-color: transparent #008000 transparent transparent; }
+
+.dlb_color_senbeftrialeft_skyblue::before, .dlb_color_senbeftrialeft_skyblue a::before, .dlb_color_senafttrialeft_skyblue::after, .dlb_color_senafttrialeft_skyblue a::after { border-color: transparent #87ceeb transparent transparent; }
+
+.dlb_color_senbeftrialeft_blue::before, .dlb_color_senbeftrialeft_blue a::before, .dlb_color_senafttrialeft_blue::after, .dlb_color_senafttrialeft_blue a::after { border-color: transparent #0000ff transparent transparent; }
+
+.dlb_color_senbeftrialeft_purple::before, .dlb_color_senbeftrialeft_purple a::before, .dlb_color_senafttrialeft_purple::after, .dlb_color_senafttrialeft_purple a::after { border-color: transparent #800080 transparent transparent; }
+
+.dlb_color_senbeftrialeft_white::before, .dlb_color_senbeftrialeft_white a::before, .dlb_color_senafttrialeft_white::after, .dlb_color_senafttrialeft_white a::after { border-color: transparent #ffffff transparent transparent; }
+
+.dlb_color_senbeftrialeft_black::before, .dlb_color_senbeftrialeft_black a::before, .dlb_color_senafttrialeft_black::after, .dlb_color_senafttrialeft_black a::after { border-color: transparent #000000 transparent transparent; }
+
+.dlb_color_senbeftrialeft_gray::before, .dlb_color_senbeftrialeft_gray a::before, .dlb_color_senafttrialeft_gray::after, .dlb_color_senafttrialeft_gray a::after { border-color: transparent #f5f5f5 transparent transparent; }
+
+/* before 矢印 下 yajirushi shita-------------------------*/
+.dlb_color_senaftarrshita_key::before, .dlb_color_senaftarrshita_key a::before, .dlb_color_senaftarrshita_key::after, .dlb_color_senaftarrshita_key a::after { border-color: #0075C2 #0075C2 transparent transparent; }
+
+.dlb_color_senbefarrshita_pink::before, .dlb_color_senbeftriashita_pink a::before, .dlb_color_senaftarrshita_pink::after, .dlb_color_senafttriashita_pink a::after { border-color: #ffc0cb #ffc0cb transparent transparent; }
+
+.dlb_color_senbefarrshita_red::before, .dlb_color_senbefarrshita_red a::before, .dlb_color_senaftarrshita_red::after, .dlb_color_senaftarrshita_red a::after { border-color: #ff0000 #ff0000 transparent transparent; }
+
+.dlb_color_senbefarrshita_orange::before, .dlb_color_senbefarrshita_orange a::before, .dlb_color_senaftarrshita_orange::after, .dlb_color_senaftarrshita_orange a::after { border-color: #ff4500 #ff4500 transparent transparent; }
+
+.dlb_color_senbefarrshita_yellow::before, .dlb_color_senbefarrshita_yellow a::before, .dlb_color_senaftarrshita_yellow::after, .dlb_color_senaftarrshita_yellow a::after { border-color: #ffff00 #ffff00 transparent transparent; }
+
+.dlb_color_senbefarrshita_yellowgreen::before, .dlb_color_senbefarrshita_yellowgreen a::before, .dlb_color_senaftarrshita_yellowgreen::after, .dlb_color_senaftarrshita_yellowgreen a::after { border-color: #9acd32 #9acd32 transparent transparent; }
+
+.dlb_color_senbefarrshita_green::before, .dlb_color_senbefarrshita_green a::before, .dlb_color_senaftarrshita_green::after, .dlb_color_senaftarrshita_green a::after { border-color: #008000 #008000 transparent transparent; }
+
+.dlb_color_senbefarrshita_skyblue::before, .dlb_color_senbefarrshita_skyblue a::before, .dlb_color_senaftarrshita_skyblue::after, .dlb_color_senaftarrshita_skyblue a::after { border-color: #87ceeb #87ceeb transparent transparent; }
+
+.dlb_color_senbefarrshita_blue::before, .dlb_color_senbefarrshita_blue a::before, .dlb_color_senaftarrshita_blue::after, .dlb_color_senaftarrshita_blue a::after { border-color: #0000ff #0000ff transparent transparent; }
+
+.dlb_color_senbefarrshita_purple::before, .dlb_color_senbefarrshita_purple a::before, .dlb_color_senaftarrshita_purple::after, .dlb_color_senaftarrshita_purple a::after { border-color: #800080 #800080 transparent transparent; }
+
+.dlb_color_senbefarrshita_white::before, .dlb_color_senbefarrshita_white a::before, .dlb_color_senaftarrshita_white::after, .dlb_color_senaftarrshita_white a::after { border-color: #ffffff #ffffff transparent transparent; }
+
+.dlb_color_senbefarrshita_black::before, .dlb_color_senbefarrshita_black a::before, .dlb_color_senaftarrshita_black::after, .dlb_color_senaftarrshita_black a::after { border-color: #000000 #000000 transparent transparent; }
+
+.dlb_color_senbefarrshita_gray::before, .dlb_color_senbefarrshita_gray a::before, .dlb_color_senaftarrshita_gray::after, .dlb_color_senaftarrshita_gray a::after { border-color: #f5f5f5 #f5f5f5 transparent transparent; }
+
+/* before 矢印 上 yajirushi ue-------------------------*/
+.dlb_color_senaftarrue_key::before, .dlb_color_senaftarrue_key a::before, .dlb_color_senaftarrue_key::after, .dlb_color_senaftarrue_key a::after { border-color: transparent transparent #0075C2 #0075C2; }
+
+.dlb_color_senbefarrue_pink::before, .dlb_color_senbefarrue_pink a::before, .dlb_color_senaftarrue_pink::after, .dlb_color_senaftfarrue_pink a::after { border-color: transparent transparent #ffc0cb #ffc0cb; }
+
+.dlb_color_senbefarrue_red::before, .dlb_color_senbefarrue_red a::before, .dlb_color_senaftarrue_red::after, .dlb_color_senaftarrue_red a::after { border-color: transparent transparent #ff0000 #ff0000; }
+
+.dlb_color_senbefarrue_orange::before, .dlb_color_senbefarrue_orange a::before, .dlb_color_senaftarrue_orange::after, .dlb_color_senaftarrue_orange a::after { border-color: transparent transparent #ff4500 #ff4500; }
+
+.dlb_color_senbefarrue_yellow::before, .dlb_color_senbefarrue_yellow a::before, .dlb_color_senaftarrue_yellow::after, .dlb_color_senaftarrue_yellow a::after { border-color: transparent transparent #ffff00 #ffff00; }
+
+.dlb_color_senbefarrue_yellowgreen::befor, .dlb_color_senbefarrue_yellowgreen a::before, .dlb_color_senaftarrue_yellowgreen::after, .dlb_color_senaftarrue_yellowgreen a::after { border-color: transparent transparent #9acd32 #9acd32; }
+
+.dlb_color_senbefarrue_green::before, .dlb_color_senbefarrue_green a::before, .dlb_color_senaftarrue_green::after, .dlb_color_senaftarrue_green a::after { border-color: transparent transparent #008000 #008000; }
+
+.dlb_color_senbefarrue_skyblue::before, .dlb_color_senbefarrue_skyblue a::before, .dlb_color_senaftarrue_skyblue::after, .dlb_color_senaftarrue_skyblue a::after { border-color: transparent transparent #87ceeb #87ceeb; }
+
+.dlb_color_senbefarrue_blue::before, .dlb_color_senbefarrue_blue a::before, .dlb_color_senaftarrue_blue::after, .dlb_color_senaftarrue_blue a::after { border-color: transparent transparent #0000ff #0000ff; }
+
+.dlb_color_senbefarrue_purple::before, .dlb_color_senbefarrue_purple a::before, .dlb_color_senaftarrue_purple::after, .dlb_color_senaftarrue_purple a::after { border-color: transparent transparent #800080 #800080; }
+
+.dlb_color_senbefarrue_white::before, .dlb_color_senbefarrue_white a::before, .dlb_color_senaftarrue_white::after, .dlb_color_senaftarrue_white a::after { border-color: transparent transparent #ffffff #ffffff; }
+
+.dlb_color_senbefarrue_black::before, .dlb_color_senbefarrue_black a::before, .dlb_color_senaftarrue_black::after, .dlb_color_senaftarrue_black a::after { border-color: transparent transparent #000000 #000000; }
+
+.dlb_color_senbefarrue_gray::before, .dlb_color_senbefarrue_gray a::before, .dlb_color_senaftarrue_gray::after, .dlb_color_senaftarrue_gray a::after { border-color: transparent transparent #f5f5f5 #f5f5f5; }
+
+/* before 矢印 右 yajirushi migi-------------------------*/
+.dlb_color_senaftarrright_key::before, .dlb_color_senaftarrright_key a::before, .dlb_color_senaftarrright_key::after, .dlb_color_senaftarrright_key a::after { border-color: #0075C2 #0075C2 transparent transparent; }
+
+.dlb_color_senbefarrright_pink::before, .dlb_color_senbefarrright_pink a::before, .dlb_color_senaftarrright_pink::after, .dlb_color_senaftarrright_pink a::after { border-color: #ffc0cb #ffc0cb transparent transparent; }
+
+.dlb_color_senbefarrright_red::before, .dlb_color_senbefarrright_red a::before, .dlb_color_senaftarrright_red::after, .dlb_color_senaftarrright_re a::after { border-color: #ff0000 #ff0000 transparent transparent; }
+
+.dlb_color_senbefarrright_orange::before, .dlb_color_senbefarrright_orange a::before, .dlb_color_senaftarrright_orange::after, .dlb_color_senaftarrright_orange a::after { border-color: #ff4500 #ff4500 transparent transparent; }
+
+.dlb_color_senbefarrright_yellow::before, .dlb_color_senbefarrright_yellow a::before, .dlb_color_senaftarrright_yellow::after, .dlb_color_senaftarrright_yellow a::after { border-color: #ffff00 #ffff00 transparent transparent; }
+
+.dlb_color_senbefarrright_yellowgreen::before, .dlb_color_senbefarrright_yellowgree a::before, .dlb_color_senaftarrright_yellowgreen::after, .dlb_color_senaftarrright_yellowgreen a::after { border-color: #9acd32 #9acd32 transparent transparent; }
+
+.dlb_color_senbefarrright_green::before, .dlb_color_senbefarrright_green a::before, .dlb_color_senaftarrright_green::after, .dlb_color_senaftarrright_green a::after { border-color: #008000 #008000 transparent transparent; }
+
+.dlb_color_senbefarrright_skyblue::before, .dlb_color_senbefarrright_skyblue a::before, .dlb_color_senaftarrright_skyblue::after, .dlb_color_senaftarrright_skyblue a::after { border-color: #87ceeb #87ceeb transparent transparent; }
+
+.dlb_color_senbefarrright_blue::before, .dlb_color_senbefarrright_blue a::before, .dlb_color_senaftarrright_blue::after, .dlb_color_senaftarrright_blue a::after { border-color: #0000ff #0000ff transparent transparent; }
+
+.dlb_color_senbefarrright_purple::before, .dlb_color_senbefarrright_blue a::before, .dlb_color_senaftarrright_purple::after, .dlb_color_senaftarrright_blue a::after { border-color: #800080 #800080 transparent transparent; }
+
+.dlb_color_senbefarrright_white::before, .dlb_color_senbefarrright_white a::before, .dlb_color_senaftarrright_white::after, .dlb_color_senaftarrright_white a::after { border-color: #ffffff #ffffff transparent transparent; }
+
+.dlb_color_senbefarrright_black::before, .dlb_color_senbefarrright_black a::before, .dlb_color_senaftarrright_black::after, .dlb_color_senaftarrright_black a::after { border-color: #000000 #000000 transparent transparent; }
+
+.dlb_color_senbefarrright_gray::before, .dlb_color_senbefarrright_gray a::before, .dlb_color_senaftarrright_gray::after, .dlb_color_senaftarrright_gray a::after { border-color: #f5f5f5 #f5f5f5 transparent transparent; }
+
+/* before 矢印 左 yajirushi hidari-------------------------*/
+.dlb_color_senaftarrleft_key::before, .dlb_color_senaftarrleft_key a::before, .dlb_color_senaftarrleft_key::after, .dlb_color_senaftarrleft_key a::after { border-color: transparent transparent #0075C2 #0075C2; }
+
+.dlb_color_senbefarrleft_pink::before, .dlb_color_senbefarrleft_pink a::before, .dlb_color_senaftarrleft_pink::after, .dlb_color_senaftarrleft_pink a::after { border-color: transparent transparent #ffc0cb #ffc0cb; }
+
+.dlb_color_senbefarrleft_red::before, .dlb_color_senbefarrleft_red a::before, .dlb_color_senaftarrleft_red::after, .dlb_color_senaftarrleft_red a::after { border-color: transparent transparent #ff0000 #ff0000; }
+
+.dlb_color_senbefarrleft_orange::before, .dlb_color_senbefarrleft_orange a::before, .dlb_color_senaftarrleft_orange::after, .dlb_color_senaftarrleft_orange a::after { border-color: transparent transparent #ff4500 #ff4500; }
+
+.dlb_color_senbefarrleft_yellow::before, .dlb_color_senbefarrleft_yellow a::before, .dlb_color_senaftarrleft_yellow::after, .dlb_color_senaftarrleft_yellow a::after { border-color: transparent transparent #ffff00 #ffff00; }
+
+.dlb_color_senbefarrleft_yellowgreen::before, .dlb_color_senbefarrleft_yellowgreen a::before, .dlb_color_senaftarrleft_yellowgreen::after, .dlb_color_senaftarrleft_yellowgreen a::after { border-color: transparent transparent #9acd32 #9acd32; }
+
+.dlb_color_senbefarrleft_green::before, .dlb_color_senbefarrleft_green a::before, .dlb_color_senaftarrleft_green::after, .dlb_color_senaftarrleft_green a::after { border-color: transparent transparent #008000 #008000; }
+
+.dlb_color_senbefarrleft_skyblue::before, .dlb_color_senbefarrleft_skyblue a::before, .dlb_color_senaftarrleft_skyblue::after, .dlb_color_senaftarrleft_skyblue a::after { border-color: transparent transparent #87ceeb #87ceeb; }
+
+.dlb_color_senbefarrleft_blue::before, .dlb_color_senbefarrleft_blue a::before, .dlb_color_senaftarrleft_blue::after, .dlb_color_senaftarrleft_blue a::after { border-color: transparent transparent #0000ff #0000ff; }
+
+.dlb_color_senbefarrleft_purple::before, .dlb_color_senbefarrleft_purple a::before, .dlb_color_senaftarrleft_purple::after, .dlb_color_senaftarrleft_purple a::after { border-color: transparent transparent #800080 #800080; }
+
+.dlb_color_senbefarrleft_white::before, .dlb_color_senbefarrleft_white a::before, .dlb_color_senaftarrleft_white::after, .dlb_color_senaftarrleft_white a::after { border-color: transparent transparent #ffffff #ffffff; }
+
+.dlb_color_senbefarrleft_black::before, .dlb_color_senbefarrleft_black a::before, .dlb_color_senaftarrleft_black::after, .dlb_color_senaftarrleft_black a::after { border-color: transparent transparent #000000 #000000; }
+
+.dlb_color_senbefarrleft_gray::before, .dlb_color_senbefarrleft_gray a::before, .dlb_color_senaftarrleft_gray::after, .dlb_color_senaftarrleft_gray a::after { border-color: transparent transparent #f5f5f5 #f5f5f5; }
+
+/* before after 背景 bg-------------------------*/
+.dlb_color_bgbef_key::before, .dlb_color_bgbef_key::after { background-color: #0075C2; }
+
+.dlb_color_bgbef_pink::before, .dlb_color_bgbef_pink::after { background-color: #ffc0cb; }
+
+.dlb_color_bgbef_red::before, .dlb_color_bgbef_red::after { background-color: #ff0000; }
+
+.dlb_color_bgbef_orange::before, .dlb_color_bgbef_orange::after { background-color: #ff4500; }
+
+.dlb_color_bgbef_yellow::before, .dlb_color_bgbef_yellow::after { background-color: #ffff00; }
+
+.dlb_color_bgbef_yellowgreen::before, .dlb_color_bgbef_yellowgreen::after { background-color: #9acd32; }
+
+.dlb_color_bgbef_green::before, .dlb_color_bgbef_green::after { background-color: #008000; }
+
+.dlb_color_bgbef_skyblue::before, .dlb_color_bgbef_skyblue::after { background-color: #87ceeb; }
+
+.dlb_color_bgbef_blue::before, .dlb_color_bgbef_blue::after { background-color: #0000ff; }
+
+.dlb_color_bgbef_purple::before, .dlb_color_bgbef_purple::after { background-color: #800080; }
+
+.dlb_color_bgbef_white::before, .dlb_color_bgbef_white::after { background-color: #ffffff; }
+
+.dlb_color_bgbef_black::before, .dlb_color_bgbef_black::after { background-color: #000000; }
+
+.dlb_color_bgbef_gray::before, .dlb_color_bgbef_gray::after { background-color: #f5f5f5; }
+
+/* before after 線 border-------------------------*/
+.dlb_color_senbef_key::before, .dlb_color_senbef_key::after { border-color: #0075C2; }
+
+.dlb_color_senbef_pink::before, .dlb_color_senbef_pink::after { border-color: #ffc0cb; }
+
+.dlb_color_senbef_red::before, .dlb_color_senbef_red::after { border-color: #ff0000; }
+
+.dlb_color_senbef_orange::before, .dlb_color_senbef_orange::after { border-color: #ff4500; }
+
+.dlb_color_senbef_yellow::before, .dlb_color_senbef_yellow::after { border-color: #ffff00; }
+
+.dlb_color_senbef_yellowgreen::before, .dlb_color_senbef_yellowgreen::after { border-color: #9acd32; }
+
+.dlb_color_senbef_green::before, .dlb_color_senbef_green::after { border-color: #008000; }
+
+.dlb_color_senbef_skyblue::before, .dlb_color_senbef_skyblue::after { border-color: #87ceeb; }
+
+.dlb_color_senbef_blue::before, .dlb_color_senbef_blue::after { border-color: #0000ff; }
+
+.dlb_color_senbef_purple::before, .dlb_color_senbef_purple::after { border-color: #800080; }
+
+.dlb_color_senbef_white::before, .dlb_color_senbef_white::after { border-color: #ffffff; }
+
+.dlb_color_senbef_black::before, .dlb_color_senbef_black::after { border-color: #000000; }
+
+.dlb_color_senbef_gray::before, .dlb_color_senbef_gray::after { border-color: #f5f5f5; }
+
+.slick-dots li button::before { background-color: #dddddd; }
+
+.slick-dots li.slick-active button::before { background-color: #0075C2; }
+
+.slick-next::before, .slick-prev::before { background-color: #0075C2; }
+
+/* ===================================================================
+CSS information
+ file name  :  color_blockdl.css
+ style info :  ブロックダウンロード用 cssの定義
+=================================================================== */
+/*
+******************************************************
+
+	カテゴリ名 ： ボックス（2個並び）
+
+******************************************************
+*/
+/* ----------------------------
+
+サムネイル名 ：
+
+----------------------------- */
+/* submain area F ***/
+.dlb_smf_box_in, .smf_box_in { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： 01
+
+----------------------------- */
+/*
+**********************************************************************************
+
+	カテゴリ名 ： 見出し（H2-H6）
+
+**********************************************************************************
+*/
+/**/
+.title02_blb, .dlb_title02_blb { border-color: #0075C2; }
+
+/**/
+.dlb_subtitle2_02 { border-color: #0075C2; }
+
+.dlb_subtitle2_03 { border-color: #0075C2; }
+
+.dlb_subtitle2_03::after { background-color: #0075C2; }
+
+.dlb_subtitle2_04 { color: #0075C2; }
+
+.dlb_subtitle2_05 { color: #ffffff; background-color: #0075C2; }
+
+.dlb_subtitle2_06::after { background-color: #0075C2; }
+
+.dlb_subtitle3_02 { border-color: #0075C2; }
+
+.dlb_subtitle3_03 { border-color: #0075C2; }
+
+.dlb_subtitle3_03::after { background-color: #0075C2; }
+
+.dlb_subtitle3_04 { color: #0075C2; }
+
+.dlb_subtitle3_05 { color: #ffffff; background-color: #0075C2; }
+
+.dlb_subtitle3_06 { border-color: #0075C2; }
+
+.dlb_subtitle4_02 { border-color: #0075C2; }
+
+.dlb_subtitle4_03 { border-color: #0075C2; }
+
+.dlb_subtitle4_03::after { background-color: #0075C2; }
+
+.dlb_subtitle4_04 { color: #0075C2; }
+
+.dlb_subtitle4_05::before { background-color: #0075C2; }
+
+.dlb_subtitle5_02 { border-color: #0075C2; }
+
+.dlb_subtitle5_03 { border-color: #0075C2; }
+
+.dlb_subtitle5_03::after { background-color: #0075C2; }
+
+.dlb_subtitle5_04::before { background-color: #0075C2; }
+
+.dlb_subtitle5_05::before { background-color: #0075C2; }
+
+.dlb_subtitle6_02 { border-color: #0075C2; }
+
+.dlb_subtitle6_03 { color: #0075C2; }
+
+.dlb_subtitle6_04::before { background-color: #0075C2; }
+
+/*（Ver2 2018/8）strat*/
+/*（Ver2）end*/
+/*（Ver3 2018/9）strat*/
+.dlb_subtitle2_08::before { background-color: #333333; }
+
+/*（Ver3 2018/9）end*/
+/* ----------------------------
+
+サムネイル名 ： ボックス（1個並び）No.03
+
+----------------------------- */
+.dlb_box1-3_area .dlb_box1_txt { background-color: #ffffff; -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1); box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1); }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（1個並び）No.04
+
+----------------------------- */
+.dlb_box1-4_area .dlb_box1_block { background-color: rgba(0, 0, 0, 0.3); color: #ffffff; }
+
+.dlb_box4-4_area .col:hover { -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15); box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15); }
+
+/* ----------------------------
+
+サムネイル名 ： フロー図 No.01
+
+----------------------------- */
+.dlb-flow_area_1 .dlb-flow_item { background-color: #0075C2; }
+
+.dlb-flow_area_1 .dlb-flow_item .dlb-flow_num { color: #ffffff; }
+
+.dlb-flow_area_1 .dlb-flow_item .dlb-flow_num::after { background-color: #ffffff; }
+
+.dlb-flow_area_1 .dlb-flow_txt { border-color: #0075C2; }
+
+.dlb-flow_area_1 + .dlb-flow_area_1 .dlb-flow_item::before { border-color: #FFC732 transparent transparent transparent; }
+
+@media only screen and (max-width: 691px) { .dlb-flow_area_1::after { border-color: #0075C2 transparent transparent transparent; } }
+
+/* ----------------------------
+
+サムネイル名 ： フロー図 No.03
+
+----------------------------- */
+.dlb-flow_area_2 .dlb-flow_item { background-color: #FD7377; }
+
+.dlb-flow_area_2 .dlb-flow_item .dlb-flow_num { color: #ffffff; }
+
+.dlb-flow_area_2 .dlb-flow_item .dlb-flow_num::after { background-color: #ffffff; }
+
+.dlb-flow_area_2 .dlb-flow_txt { border-color: #FD7377; }
+
+.dlb-flow_area_2 + .dlb-flow_area_2 .dlb-flow_item::before { border-color: #FFC732 transparent transparent transparent; }
+
+@media only screen and (max-width: 691px) { .dlb-flow_area_2::after { border-color: #0075C2 transparent transparent transparent; } }
+
+/* ----------------------------
+
+サムネイル名 ： フロー図 No.02
+
+----------------------------- */
+.dlb-flow_area_3 .dlb-flow_item { background-color: rgba(0, 117, 194, 0.08); }
+
+.dlb-flow_area_3 .dlb-flow_title { color: #ffffff; background-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（2個並び）No.02
+
+----------------------------- */
+.dlb_box2-2_txt { background-color: #f5f5f5; }
+
+.dlb_box2-2_en { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ (C-12)
+
+----------------------------- */
+.dlb_box3-3_area .txtlink::before { border-color: #0075C2; }
+
+.dlb_box3-3_area .txtlink a { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（3個並び）No.03
+
+----------------------------- */
+.dlb_box3-5_area .dlb_box3-5_txt { border-color: #0075C2; background-color: #ffffff; -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1); }
+
+.dlb_box3-5_area .col:hover .dlb_box3-5_txt { background-color: #0075C2; border-color: #555555; color: #ffffff; }
+
+.dlb_box3-5_area .col:hover a { color: #ffffff; }
+
+/* ----------------------------
+
+ボックス（2個並び）No.06
+
+----------------------------- */
+.dlb_box2-6_area { background-color: #f5f5f5; }
+
+.dlb_box2-6_area a { background-color: #ffffff; border: 1px solid #ffffff; }
+
+.dlb_box2-6_area a:hover { background-color: rgba(237, 28, 33, 0.05); border-color: #0075C2; }
+
+.dlb_box2-6_area a::before { border-color: #0075C2; }
+
+/* ----------------------------
+
+ボックス（2個並び）No.07/08
+
+----------------------------- */
+.dlb_box2-8_area .dlb_box2-8_txt { border-color: #ffffff; background-color: #f9f9f9; -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); }
+
+@media only screen and (max-width: 690px) { .dlb_box2-8_area { -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); }
+  .dlb_box2-8_area .dlb_box2-8_txt { -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0); box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0); } }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（4個並び）No.02
+
+----------------------------- */
+.dlb_box4-2_area .col { background-color: #f5f5f5; }
+
+.dlb_box4-2_area .col:hover { background-color: #0075C2; }
+
+.dlb_box4-2_area .col:hover .dlb_box4-2_txt { color: #ffffff; }
+
+.dlb_box4-2_area .col:hover .dlb_box4-2_txt a { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（4個並び）No.03
+
+----------------------------- */
+.dlb_box4-3_area .dlb_box4-3_txt { border-color: #0075C2; background-color: #ffffff; -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1); }
+
+.dlb_box4-3_area .col:hover .dlb_box4-3_txt { background-color: #0075C2; border-color: #555555; color: #ffffff; }
+
+.dlb_box4-3_area .col:hover a { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： ボックス（4個並び）No.04
+
+----------------------------- */
+.dlb_box4-4_area .dlb_box4-4_txt { background-color: #f5f5f5; }
+
+/* ----------------------------
+
+サムネイル名 ： 画像切り替わり
+
+----------------------------- */
+.dlb_interactive-1_area { background-color: #0075C2; color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： タブ切り替え
+
+----------------------------- */
+.dlb_interactive-2_area .dlb_interactive-tab li { border-color: #0075C2; background-color: #0075C2; color: #ffffff; }
+
+.dlb_interactive-2_area .dlb_interactive-tab li.active { background-color: #ffffff; color: #0075C2; }
+
+.dlb_interactive-2_area .dlb_interactive-tab li.active::after { background-color: #ffffff; }
+
+.dlb_interactive-2_area .dlb_interactive-con { border-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： サムネイル付き画像切り替え
+
+----------------------------- */
+.dlb_interactive-4_nav .slick-slide img { border-color: rgba(237, 28, 33, 0); }
+
+.dlb_interactive-4_nav .slick-slide.slick-current img { border-color: #0075C2; }
+
+.dlb_interactive-4_nav .slick-prev, .dlb_interactive-4_nav .slick-next { background-color: rgba(0, 0, 0, 0.5); }
+
+.dlb_interactive-4_nav .slick-prev::before, .dlb_interactive-4_nav .slick-next::before { color: #ffffff; }
+
+.dlb_interactive-4_nav .slick-prev:hover, .dlb_interactive-4_nav .slick-next:hover, .dlb_interactive-4_nav .slick-prev:focus, .dlb_interactive-4_nav .slick-next:focus { background-color: rgba(0, 0, 0, 0.9); }
+
+/* ----------------------------
+
+サムネイル名 ： アコーディオン
+
+----------------------------- */
+.dlb_interactive_accordion_click { background-color: #f5f5f5; }
+
+.dlb_interactive_accordion_click::after { background-color: #0075C2; color: #ffffff; }
+
+.dlb_interactive_accordion_click.active { background-color: #eeeeee; }
+
+.dlb_interactive_accordion_answer { background-color: #f5f5f5; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-30（Ver2）
+
+----------------------------- */
+.dlb_content-30 .dlb_c30_item { background-color: #ffffff; border-color: #ffffff; }
+
+.dlb_content-30 .dlb_c30_item:hover { border-color: #0075C2; }
+
+.dlb_content-30 .dlb_c30_icon { color: #0075C2; }
+
+.dlb_content-30 .dlb_c30_title a { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-31（Ver2）
+
+----------------------------- */
+.dlb_content-31 { border-color: #dddddd; }
+
+.dlb_c31_title { border-color: #dddddd; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-32（Ver2）
+
+----------------------------- */
+.dlb_c32_q .dlb_initials { background-color: #0075C2; border-color: #0075C2; color: #ffffff; }
+
+.dlb_c32_a .dlb_initials { border-color: #0075C2; color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-33（Ver2）
+
+----------------------------- */
+.dlb_c33_title_area { background-color: #0075C2; }
+
+.dlb_c33_title { color: #ffffff; }
+
+.dlb_c33_txt { background-color: #F6FAFC; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-34（Ver2）
+
+----------------------------- */
+.dlb_c34_title_area { background-color: #0075C2; }
+
+.dlb_c34_txt_area { background-color: #F6FAFC; }
+
+.dlb_c33_title { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-35（Ver2）
+
+----------------------------- */
+.dlb_c35_l { background-color: #F6FAFC; color: #194084; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-36（Ver2）
+
+----------------------------- */
+.dlb_content-36 { background-color: #F6FAFC; }
+
+.dlb_c36_block + .dlb_c36_block::before { border-color: #999999; }
+
+.dlb_c36_num { color: #194084; }
+
+.dlb_c36_title { color: #194084; }
+
+.dlb_c36_txt { border-color: #194084; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-37（Ver2）
+
+----------------------------- */
+.dlb_c37_txt { border-color: #cccccc; }
+
+.dlb_c37_title { color: #194084; }
+
+.dlb_c37_titlesub { color: #0E84E5; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-38（Ver2）
+
+----------------------------- */
+.dlb_content-38 .col { background-color: #f5f5f5; }
+
+.dlb_content-38 .col:nth-child(2), .dlb_content-38 .col:nth-child(4), .dlb_content-38 .col:nth-child(5), .dlb_content-38 .col:nth-child(7) { background-color: #F6FAFC; }
+
+.dlb_c38_txt a { color: #0075C2; }
+
+.dlb_content-38 .col.bl-hover .dlb_c38_txt a::after { right: -15px; }
+
+@media only screen and (max-width: 690px) { .dlb_content-38 .col, .dlb_content-38 .col:nth-child(2), .dlb_content-38 .col:nth-child(4), .dlb_content-38 .col:nth-child(5), .dlb_content-38 .col:nth-child(7) { background-color: #f5f5f5; }
+  .dlb_content-38 .col:nth-child(2), .dlb_content-38 .col:nth-child(3), .dlb_content-38 .col:nth-child(6), .dlb_content-38 .col:nth-child(7), .dlb_content-38 .col:nth-child(10), .dlb_content-38 .col:nth-child(11) { background-color: #F6FAFC; } }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-39（Ver2）
+
+----------------------------- */
+.col.dlb_c39_img { background-color: #f3f3f3; }
+
+.col.dlb_c39_txt { background-color: #F6FAFC; }
+
+.dlb_c39_img i, .dlb_c39_img em { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-40（Ver2）
+
+----------------------------- */
+.dlb_c40_txt, .dlb_c40_txt a { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-41（Ver2）
+
+----------------------------- */
+.dlb_content-41 { background-color: #F6FAFC; }
+
+.dlb_c41_info::before { background-color: rgba(0, 0, 0, 0.3); }
+
+.dlb_c41_block:hover .dlb_c41_info::before { background-color: rgba(0, 0, 0, 0.7); }
+
+.dlb_c41_title { color: #ffffff; }
+
+.dlb_c41_titlesub { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-42（Ver2）
+
+----------------------------- */
+.dlb_c42_box { background-color: rgba(0, 0, 0, 0.6); color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-43（Ver2）
+
+----------------------------- */
+.dlb_c43_txt { background-color: #F5F4F2; }
+
+.dlb_content-43 .col:hover::before { border-color: #0075C2; }
+
+/*-----------------------------------------------------------------
+
+サムネイル名 ： コンテンツ　C-45（Ver2）
+
+-----------------------------------------------------------------*/
+.dlb_c45_numen, .dlb_c45_numdigit { font-style: italic; font-family: 'Roboto', sans-serif; font-weight: 900; }
+
+.dlb_c45_btn a { background: -webkit-linear-gradient(45deg, #4674CA, #3DC3DA); background: -o-linear-gradient(45deg, #4674CA, #3DC3DA); background: linear-gradient(45deg, #4674CA, #3DC3DA); color: #ffffff; -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2); }
+
+.dlb_c45_btn a:hover { -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0); box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0); }
+
+@media only screen and (max-width: 979px) { .dlb_c45_block::before { background-color: #f3f3f3; } }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-46（Ver2）
+
+----------------------------- */
+.dlb_c46_box { background-color: #F4F7FA; }
+
+.dlb_c46_box_l { -webkit-box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1); box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1); }
+
+.dlb_c46_main { background-color: #4AA5EC; color: #ffffff; }
+
+.num01 .dlb_c46_main { background-color: #777777; }
+
+.num02 .dlb_c46_main { background-color: #0075C2; }
+
+.num03 .dlb_c46_main { background-color: #777777; }
+
+.dlb_c46_catch { background-color: #ffffff; color: #4987EC; -webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); }
+
+.dlb_c46_btn a { color: #ffffff; }
+
+.num01 .dlb_c46_btn a { background-color: #777777; }
+
+.num02 .dlb_c46_btn a { background-color: #0075C2; }
+
+.num03 .dlb_c46_btn a { background-color: #777777; }
+
+.num01 .dlb_c46_btn a::before { background-color: #555555; }
+
+.num02 .dlb_c46_btn a::before { background-color: #555555; }
+
+.num03 .dlb_c46_btn a::before { background-color: #555555; }
+
+@media only screen and (max-width: 690px) { .num02.dlb_c46_box { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+  .num01.dlb_c46_box { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+  .num03.dlb_c46_box { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; } }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-47（Ver2）
+
+----------------------------- */
+.dlb_c47_box { background-color: #F4F7FA; }
+
+.dlb_c47_main { background-color: #4AA5EC; color: #ffffff; }
+
+.num01 .dlb_c47_main { background-color: #8AA5B5; }
+
+.num02 .dlb_c47_main { background-color: #4AA5EC; }
+
+.num03 .dlb_c47_main { background-color: #4987EC; }
+
+.num04 .dlb_c47_main { background-color: #F48F06; }
+
+.num05 .dlb_c47_main { background-color: #072C5D; }
+
+.dlb_c47_catch { background-color: #ffffff; color: #4987EC; -webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); }
+
+.dlb_c47_btn a { background-color: #ffffff; border-color: #ffffff; }
+
+.num01 .dlb_c47_btn a { color: #8AA5B5; }
+
+.num02 .dlb_c47_btn a { color: #4AA5EC; }
+
+.num03 .dlb_c47_btn a { color: #4987EC; }
+
+.num04 .dlb_c47_btn a { color: #F48F06; }
+
+.num05 .dlb_c47_btn a { color: #072C5D; }
+
+.num01 .dlb_c47_btn a::before { background-color: #8AA5B5; }
+
+.num02 .dlb_c47_btn a::before { background-color: #4AA5EC; }
+
+.num03 .dlb_c47_btn a::before { background-color: #4987EC; }
+
+.num04 .dlb_c47_btn a::before { background-color: #F48F06; }
+
+.num05 .dlb_c47_btn a::before { background-color: #072C5D; }
+
+.dlb_c47_btn a:hover { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-48（Ver2）
+
+----------------------------- */
+.dlb_content-48 { background-color: #f5f5f5; }
+
+.dlb_c48_block .col { background-color: #ffffff; }
+
+.dlb_c48_icon { background: -webkit-linear-gradient(45deg, #4674CA, #3DC3DA); background: -o-linear-gradient(45deg, #4674CA, #3DC3DA); background: linear-gradient(45deg, #4674CA, #3DC3DA); }
+
+.dlb_c48_arr::before { border-top: 2px solid #0075C2; border-right: 2px solid #0075C2; }
+
+.dlb_c48_numen, .dlb_c48_numdigit { font-style: italic; font-family: 'Roboto', sans-serif; font-weight: 900; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-49（Ver2）
+
+----------------------------- */
+.dlb_c49_title_area::before { background-color: rgba(0, 0, 0, 0.4); }
+
+.dlb_c49_ta_title { color: #ffffff; }
+
+.dlb_c49_ta_txt { color: #ffffff; }
+
+.dlb_c49_con_box { background-color: #ffffff; -webkit-box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05); box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05); }
+
+.dlb_c49_ca_btn a { border-style: solid; border-width: 1px; color: #ffffff; }
+
+.dlb_c49_ca_btn a:hover { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-51（Ver2）
+
+----------------------------- */
+.dlb_c51_ta_title { color: #ffffff; }
+
+.dlb_c51_ta_txt { color: #ffffff; }
+
+.slick-slide.single_slide_in { background-color: #ffffff; }
+
+.single_slide .slick-list { -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1); }
+
+.slider-nav-s .slick-slide { background-color: #0075C2; color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-52（Ver2）
+
+----------------------------- */
+.dlb_c52_list li a:hover::before { border-color: #fcd9da; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-56（Ver4 2018/09）
+
+----------------------------- */
+.dlb_content-56 .dlb_c56_box { background-color: #F6FAFC; }
+
+.dlb_content-56 .dlb_c56_box:nth-child(2), .dlb_content-56 .dlb_c56_box:nth-child(3), .dlb_content-56 .dlb_c56_box:nth-child(6), .dlb_content-56 .dlb_c56_box:nth-child(7), .dlb_content-56 .dlb_c56_box:nth-child(10), .dlb_content-56 .dlb_c56_box:nth-child(11), .dlb_content-56 .dlb_c56_box:nth-child(14), .dlb_content-56 .dlb_c56_box:nth-child(15), .dlb_content-56 .dlb_c56_box:nth-child(18), .dlb_content-56 .dlb_c56_box:nth-child(19), .dlb_content-56 .dlb_c56_box:nth-child(22), .dlb_content-56 .dlb_c56_box:nth-child(23), .dlb_content-56 .dlb_c56_box:nth-child(26), .dlb_content-56 .dlb_c56_box:nth-child(27), .dlb_content-56 .dlb_c56_box:nth-child(30), .dlb_content-56 .dlb_c56_box:nth-child(31), .dlb_content-56 .dlb_c56_box:nth-child(34), .dlb_content-56 .dlb_c56_box:nth-child(35), .dlb_content-56 .dlb_c56_box:nth-child(38), .dlb_content-56 .dlb_c56_box:nth-child(39), .dlb_content-56 .dlb_c56_box:nth-child(42), .dlb_content-56 .dlb_c56_box:nth-child(43), .dlb_content-56 .dlb_c56_box:nth-child(46), .dlb_content-56 .dlb_c56_box:nth-child(47), .dlb_content-56 .dlb_c56_box:nth-child(50), .dlb_content-56 .dlb_c56_box:nth-child(51) { background-color: #f5f5f5; }
+
+@media only screen and (max-width: 690px) { .dlb_content-56 .dlb_c56_box:nth-child(2), .dlb_content-56 .dlb_c56_box:nth-child(3), .dlb_content-56 .dlb_c56_box:nth-child(6), .dlb_content-56 .dlb_c56_box:nth-child(7), .dlb_content-56 .dlb_c56_box:nth-child(10), .dlb_content-56 .dlb_c56_box:nth-child(11), .dlb_content-56 .dlb_c56_box:nth-child(14), .dlb_content-56 .dlb_c56_box:nth-child(15), .dlb_content-56 .dlb_c56_box:nth-child(18), .dlb_content-56 .dlb_c56_box:nth-child(19), .dlb_content-56 .dlb_c56_box:nth-child(22), .dlb_content-56 .dlb_c56_box:nth-child(23), .dlb_content-56 .dlb_c56_box:nth-child(26), .dlb_content-56 .dlb_c56_box:nth-child(27), .dlb_content-56 .dlb_c56_box:nth-child(30), .dlb_content-56 .dlb_c56_box:nth-child(31), .dlb_content-56 .dlb_c56_box:nth-child(34), .dlb_content-56 .dlb_c56_box:nth-child(35), .dlb_content-56 .dlb_c56_box:nth-child(38), .dlb_content-56 .dlb_c56_box:nth-child(39), .dlb_content-56 .dlb_c56_box:nth-child(42), .dlb_content-56 .dlb_c56_box:nth-child(43), .dlb_content-56 .dlb_c56_box:nth-child(46), .dlb_content-56 .dlb_c56_box:nth-child(47), .dlb_content-56 .dlb_c56_box:nth-child(50), .dlb_content-56 .dlb_c56_box:nth-child(51) { background-color: #F6FAFC; }
+  .dlb_content-56 .dlb_c56_box:nth-child(2n) { background-color: #f5f5f5; } }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-57（Ver4 2018/09）
+
+----------------------------- */
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-58（Ver4 2018/09）
+
+----------------------------- */
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-59（Ver4 2018/09）
+
+----------------------------- */
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-61（Ver4 2018/09）
+
+----------------------------- */
+.dlb_c61_btn a::after { border-color: #293A45 #293A45 transparent transparent; }
+
+.dlb_c61_btn a:hover { background-color: #ffffff; color: #293A45; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-62（Ver4 2018/09）
+
+----------------------------- */
+.dlb_c62_box a { border-color: #cccccc; background-color: #ffffff; }
+
+.dlb_c62_box a::after { border-color: #0075C2 #0075C2 transparent transparent; }
+
+.dlb_c62_box a:hover { background-color: #0075C2; color: #ffffff; }
+
+.dlb_c62_box a:hover::after { border-color: #ffffff #ffffff transparent transparent; }
+
+.dlb_c62_box img { background-color: #f5f5f5; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-63（Ver4 2018/09）
+
+----------------------------- */
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-64（Ver4 2018/09）
+
+----------------------------- */
+.dlb_content-64 .dlb_c64_con { background-color: rgba(0, 0, 0, 0.5); }
+
+.dlb_content-64 .dlb_c64_title { color: #ffffff; }
+
+.dlb_content-64 .dlb_c64_title::after { background-color: #ffffff; }
+
+.dlb_content-64 .dlb_c64_txt { color: #ffffff; }
+
+.dlb_content-64 .dlb_c64_btn a { background-color: #ffffff; }
+
+.dlb_content-64 .dlb_c64_btn a::before { border-top: 1px solid #333333; border-right: 1px solid #333333; }
+
+.dlb_content-64 .dlb_c64_btn a:hover { background-color: #00367B; color: #ffffff; }
+
+.dlb_content-64 .dlb_c64_btn a:hover::before { border-color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-65（Ver5 2018/10）
+
+----------------------------- */
+.dlb_c65_simg .slick-slide.slick-current img { border-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-66（Ver5 2018/10）
+
+----------------------------- */
+.dlb_c66_simg .slick-slide.slick-current img { border-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-67（Ver5 2018/10）
+
+----------------------------- */
+.dlb_c67_simg .slick-slide.slick-current img { border-color: #0075C2; }
+
+/*
+**********************************************************************************
+
+	カテゴリ名 ： 表組
+
+**********************************************************************************
+*/
+/* ----------------------------
+
+サムネイル名 ： 表 No.03
+
+----------------------------- */
+table.tab03 tr:nth-child(2n) { background-color: #F5F4F2; }
+
+table.tab03 tr:nth-child(2n) th { background-color: #0075C2; }
+
+table.tab03 th { background-color: #0075C2; color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： 表 No.01-05
+
+----------------------------- */
+.dlb_table_01 td:first-child { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_02 tr:nth-child(odd) td { background-color: #f5f5f5; }
+
+.dlb_table_02 tr:nth-child(odd) td:first-child, .dlb_table_02 td:first-child { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_03 thead td { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_03 tbody td:first-child { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_04 thead td { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_04 tbody tr:nth-child(even) td { background-color: #f5f5f5; }
+
+.dlb_table_04 tbody tr:nth-child(even) td:first-child, .dlb_table_04 tbody td:first-child { background-color: #0075C2; color: #ffffff; }
+
+.dlb_table_05 thead td { border-bottom-color: #0075C2; color: #0075C2; background-color: #ffffff; }
+
+.dlb_table_05 tbody td:first-child { color: #0075C2; background-color: #ffffff; }
+
+/*（Ver2 2018/9）start*/
+.dlb_table_06 td { border-color: #ffffff; background-color: #f5f5f5; }
+
+.dlb_table_06 td:first-child { background-color: #ececec; }
+
+@media only screen and (max-width: 690px) { .dlb_table_07 tr:first-child td:first-child { border-color: #ebebeb; } }
+
+.dlb_table_07 td { border-color: #ebebeb; }
+
+@media only screen and (max-width: 690px) { .dlb_table_07 tr:first-child td:first-child { border-color: #ebebeb; } }
+
+.dlb_table_08 td { border-color: #ebebeb; background-color: #ffffff; }
+
+.dlb_table_08 td:first-child { border-color: #ebebeb; background-color: #F5F4F2; }
+
+/*（Ver2 2018/9）end*/
+/*（Ver2 2018/10）start*/
+/* ----------------------------
+
+サムネイル名 ： 表 No.09 (2018/10)
+
+----------------------------- */
+.dlb_tab09_col { border-color: #dddddd; }
+
+.dlb_tab09_title { color: #0075C2; border-color: #dddddd; }
+
+.tabtitle { color: #0075C2; }
+
+.tabcell { border-color: #dddddd; }
+
+.tabcellM3, .tabcellM5, .tabcellM7, .tabcellM9, .tabcellM11 { background-color: #f5f5f5; }
+
+.tabbg .tabcell { background-color: #0075C2; color: #ffffff; }
+
+@media only screen and (max-width: 690px) {
+	.dlb_tab09_col { border-color: #dddddd; }
+	.tab_col_color, .tab_col_color .tabcelltitle { background-color: transparent; color: inherit; }
+	.dlb_tab09_title .tabcon .tabcell:nth-child(even), .tabcon .tabcell:nth-of-type(2n) { background-color: transparent; }
+	.tabsp_btn_in span { background-color: #0075C2; }
+	.tabbg .tabsp_btn_in span { background-color: #ffffff; }
+	.tabbg.spnon .tabcell { background-color: #ffffff; color: #000000; }
+	.tabbg.spnon .tabcelltitle { color: #0075C2; }
+	.tabbg.spnon .tabsp_btn_in span { background-color: #0075C2; }
+	.tabbg.spnon .tabcellM3, .tabbg.spnon .tabcellM5, .tabbg.spnon .tabcellM7, .tabbg.spnon .tabcellM9, .tabbg.spnon.tabcellM11 { background-color: #f5f5f5; } }
+/*
+**********************************************************************************
+
+	カテゴリ名 ： リンク・リスト・バナー
+
+**********************************************************************************
+*/
+/* ----------------------------
+
+サムネイル名 ： アンカーメニュー
+
+----------------------------- */
+.menu_btn_332 a, .menu_btn_331 a, .menu_btn_d332 a, .menu_btn_d331 a, .menu_btn_432 a, .menu_btn_422 a, .menu_btn_d432 a, .menu_btn_d422 a, .menu_btn_532 a, .menu_btn_d532 a, .menu_btn_642 a, .menu_btn_d642 a { background-color: #f5f5f5; border-color: #dddddd; }
+
+.menu_btn_332 a:hover, .menu_btn_331 a:hover, .menu_btn_d332 a:hover, .menu_btn_d331 a:hover, .menu_btn_432 a:hover, .menu_btn_422 a:hover, .menu_btn_d432 a:hover, .menu_btn_d422 a:hover, .menu_btn_532 a:hover, .menu_btn_d532 a:hover, .menu_btn_642 a:hover, .menu_btn_d642 a:hover { background-color: #293A45; border-color: #161f25; color: #ffffff; }
+
+.menu_btn_332 a:hover::before, .menu_btn_331 a:hover::before, .menu_btn_d332 a:hover::before, .menu_btn_d331 a:hover::before, .menu_btn_432 a:hover::before, .menu_btn_422 a:hover::before, .menu_btn_d432 a:hover::before, .menu_btn_d422 a:hover::before, .menu_btn_532 a:hover::before, .menu_btn_d532 a:hover::before, .menu_btn_642 a:hover::before, .menu_btn_d642 a:hover::before { color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： アンカーメニュー（Ver5 2018/10）
+
+----------------------------- */
+.dlb_pnavi01_area { background-color: #333333; }
+
+.dlb_pnavi01_area .dlb_pnavi01_block li { border-right: 1px solid rgba(255, 255, 255, 0.3); border-left: 1px solid rgba(255, 255, 255, 0.3); }
+
+.dlb_pnavi01_area .dlb_pnavi01_block li a { color: #ffffff; background-color: rgba(255, 255, 255, 0.06); }
+
+.dlb_pnavi01_area .dlb_pnavi01_block li a::after { border-top: solid 2px #ffffff; border-right: solid 2px #ffffff; }
+
+.dlb_pnavi01_area .dlb_pnavi01_block li a:hover { background-color: rgba(255, 255, 255, 0.18); }
+
+@media only screen and (max-width: 979px) { .dlb_pnavi01_area .dlb_pnavi01_block li { border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
+
+/* ----------------------------
+
+サムネイル名 ： アンカーメニュー （Ver5 2018/10）
+
+----------------------------- */
+.dlb_pnavi02_area { border-top-color: #eeeeee; border-bottom-color: #eeeeee; }
+
+.dlb_pnavi02_area .dlb_pnavi02_area::after { background-color: #eeeeee; }
+
+.dlb_pnavi02_area .dlb_pnavi02_block li { border-right: 1px solid #dddddd; border-left: 1px solid #dddddd; }
+
+.dlb_pnavi02_area .dlb_pnavi02_block li a:hover { background-color: rgba(0, 0, 0, 0.03); }
+
+@media only screen and (max-width: 979px) { .dlb_pnavi02_area .dlb_pnavi02_block li { border-color: #eeeeee; } }
+
+/* ----------------------------
+
+サムネイル名 ： アンカーメニュー（Ver5 2018/10）
+
+----------------------------- */
+.dlb_pnavi03_area { background-color: #f5f5f5; }
+
+.dlb_pnavi03_area .dlb_pnavi03_num { color: #ffffff; }
+
+.dlb_pnavi03_area .dlb_pnavi03_txt { background-color: #ffffff; border: solid 1px #ffffff; -webkit-transition: all .2s ease 0s; -o-transition: all .2s ease 0s; transition: all .2s ease 0s; }
+
+.dlb_pnavi03_area .dlb_pnavi03_txt::after { border-top-style: solid; border-top-width: 3px; border-right-style: solid; border-right-width: 3px; border-color: #0075C2; }
+
+.dlb_pnavi03_area li:hover .dlb_pnavi03_txt { border-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： アンカーメニュー（Ver5 2018/10）
+
+----------------------------- */
+.dlb_pnavi04_area { background-color: #f5f5f5; }
+
+.dlb_pnavi04_area .dlb_pnavi04_txt { background-color: #ffffff; }
+
+.dlb_pnavi04_area .dlb_pnavi04_txt::after { border-top-style: solid; border-top-width: 2px; border-right-style: solid; border-right-width: 2px; }
+
+.dlb_pnavi04_area .dlb_pnavi04_num { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： バナー 1
+
+----------------------------- */
+.dlb_banner_1 { border-color: #dddddd; }
+
+.dlb_banner_1 .col, .dlb_banner_1 .col:nth-child(4n+1) { border-color: #dddddd; background-color: #ffffff; }
+
+.dlb_banner_1 .col.bl-hover { -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); }
+
+/* ----------------------------
+
+サムネイル名 ： バナー 4
+
+----------------------------- */
+.dlb_banner_4 .col { border-color: #dddddd; }
+
+.dlb_banner_4 .col.bl-hover { -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); }
+
+/* ----------------------------
+
+サムネイル名 ： バナー 5
+
+----------------------------- */
+.dlb_banner_5 .col { border-color: #dddddd; }
+
+.dlb_banner_5 .col.bl-hover { -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); }
+
+/* ----------------------------
+
+サムネイル名 ： リスト 3
+
+----------------------------- */
+.dlb_list_img li em, .dlb_list_img li i { font-weight: bold; color: #0075C2; }
+
+/*
+**********************************************************************************
+
+	カテゴリ名 ： ブログ メディア吐き出し
+
+**********************************************************************************
+*/
+/* ----------------------------
+
+サムネイル名 ： ブログ 共通
+
+----------------------------- */
+.dlb_media_time { color: #999999; }
+
+.dlb_media_cate span { background-color: #f5f5f5; color: #0075C2; }
+
+.dlb_media_block:hover .dlb_media_title { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ブログ No.01
+
+----------------------------- */
+.dlb_media_01_area span { background-color: #0075C2; color: #ffffff; }
+
+/* ----------------------------
+
+サムネイル名 ： ブログ No.03
+
+----------------------------- */
+.dlb_media_03_area .dlb_media_block { border-color: #F0EFED; }
+
+.dlb_media_03_area .dlb_media_time { color: #000000; }
+
+.dlb_media_03_area .dlb_media_title { color: #0075C2; }
+
+.dlb_media_03_area .dlb_media_cate span { color: #ffffff; background-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ブログ No.04
+
+----------------------------- */
+.dlb_media_04_block .dlb_media_block { background-color: #f5f5f5; border: 1px solid #f5f5f5; }
+
+.dlb_media_04_block .dlb_media_block:hover { background-color: #f9f9f9; border-color: #0075C2; }
+
+.dlb_media_04_block .dlb_media_time { font-size: 14px; font-weight: bold; }
+
+.dlb_media_04_block .dlb_media_title { color: #0075C2; }
+
+.dlb_media_04_block .dlb_media_title a { color: #0075C2; }
+
+.dlb_media_04_block .dlb_media_cate span { color: #ffffff; background-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ブログ No.03（Ver5 2018/10）
+
+----------------------------- */
+.dlb_media_03_area .dlb_media_block { border-color: #F0EFED; }
+
+.dlb_media_03_area .dlb_media_block:hover { border-color: #0075C2; }
+
+.dlb_media_03_area .dlb_media_time { color: #000000; }
+
+.dlb_media_03_area .dlb_media_title { color: #0075C2; }
+
+.dlb_media_03_area .dlb_media_cate span { color: #ffffff; background-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： ブログ No.04（Ver5 2018/10）
+
+----------------------------- */
+.dlb_media_04_area .dlb_media_04_block .dlb_media_block { background-color: #f5f5f5; border: 1px solid #f5f5f5; }
+
+.dlb_media_04_area .dlb_media_04_block .dlb_media_block:hover { background-color: #f9f9f9; border-color: #0075C2; }
+
+.dlb_media_04_area .dlb_media_04_block .dlb_media_title { color: #0075C2; }
+
+.dlb_media_04_area .dlb_media_04_block .dlb_media_title a { color: #0075C2; }
+
+.dlb_media_04_area .dlb_media_04_block .dlb_media_cate span { color: #ffffff; background-color: #0075C2; }
+
+/*
+**********************************************************************************
+
+	カテゴリ名 ： お知らせ
+
+**********************************************************************************
+*/
+.dlb_rss dl { border-color: #cccccc; }
+
+.dlb_rss dl:hover { background-color: #f5f5f5; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.01
+
+----------------------------- */
+.dlb_rss_01 .dlb_btn a { background-color: #293A45; color: #ffffff; border-color: #293A45; }
+
+.dlb_rss_01 .dlb_btn a:hover { background-color: #ffffff; color: #293A45; border-color: #293A45; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.02
+
+----------------------------- */
+.dlb_rss_02 .dlb_btn a { background-color: #293A45; color: #ffffff; border-color: #293A45; }
+
+.dlb_rss_02 .dlb_btn a:hover { background-color: #ffffff; color: #293A45; border-color: #293A45; }
+
+.dlb_rss_02 .dlb_rss_ban a { background-color: rgba(41, 51, 55, 0.7); color: #ffffff; }
+
+.dlb_rss_02 .dlb_rss_ban a:hover { background-color: #293337; }
+
+.dlb_rss_02 .dlb_rss_ban:hover a { background-color: #293337; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.03
+
+----------------------------- */
+.dlb_rss_03 .dlb_rss_03_box { background-color: rgba(255, 255, 255, 0.8); }
+
+.dlb_rss_03 .dlb_btn a { background-color: #293A45; color: #ffffff; border-color: #293A45; }
+
+.dlb_rss_03 .dlb_btn a:hover { background-color: #ffffff; color: #293A45; border-color: #293A45; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.04
+
+----------------------------- */
+.dlb_rss_tab_nav li:hover::after { background-color: #0075C2; }
+
+.dlb_rss_tab_nav li.active { color: #0075C2; }
+
+.dlb_rss_tab_nav li.active::after { background-color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.05（Ver2）
+
+----------------------------- */
+.dlb_rss_05 dl { border-color: #F0EFED; }
+
+.dlb_rss_05 dl a:hover { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： お知らせ一覧 No.06
+
+----------------------------- */
+.dlb_rss_06_block dl { background-color: #f5f5f5; border: 1px solid #f5f5f5; }
+
+.dlb_rss_06_block dl:hover { background-color: #f9f9f9; border-color: #0075C2; }
+
+.dlb_rss_06_block .rss_date { color: #999999; }
+
+/*
+**********************************************************************************
+
+	カテゴリ名 ： その他
+
+**********************************************************************************
+*/
+/* ----------------------------
+
+サムネイル名 ： お問い合わせ No.01
+
+----------------------------- */
+.dlb_area_1 .dlb_contact_tel .dlb_contact_telnum { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： お問い合わせ No.02
+
+----------------------------- */
+.dlb_area_2 .dlb_contact_tel .dlb_contact_telnum { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： お問い合わせ No.03（Ver2）
+
+----------------------------- */
+.dlb_area_3.dlb_contact_area { background-color: #F5F4F2; }
+
+.dlb_area_3.dlb_contact_area .col { background-color: #ffffff; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_title { color: #ffffff; background-color: #777777; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_tel .dlb_contact_title { background-color: #0075C2; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn a { color: #ffffff; background-color: #293A45; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn a::before { background-color: #40596A; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn a:hover { color: #ffffff; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn.btn_bg_01 a { background-color: #F2C70F; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn.btn_bg_01 a::before { background-color: #F2A20F; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn.btn_bg_02 a { background-color: #3B586B; }
+
+.dlb_area_3.dlb_contact_area .dlb_contact_btn.btn_bg_02 a::before { background-color: #153244; }
+
+/* ----------------------------
+
+サムネイル名 ： お問い合わせ No.04（Ver3 2018/9）
+
+----------------------------- */
+.dlb_co4_block { border-color: #cccccc; }
+
+.dlb_co4_title { color: #ffffff; }
+
+.dlb_co4_list li { border-bottom-color: #cccccc; }
+
+.dlb_co4_list li::before { border-top-color: #333333; border-right-color: #333333; }
+
+.dlb_co4_box_txt_in { background-color: #fcd9da; }
+
+.dlb_co4_box_txt_in:before { border-left: 15px solid #fcd9da; border-right-color: transparent !important; border-top-color: transparent !important; border-bottom-color: transparent !important; }
+
+@media only screen and (max-width: 979px) { .dlb_co4_block + .dlb_co4_block { border-left-color: #cccccc; } }
+
+/*
+**********************************************************************************
+
+  共通 ： ボタン
+
+**********************************************************************************
+*/
+.dlb_btn a, .dlb_btn_inlineb a { background-color: #293A45; color: #ffffff; border-color: #293A45; }
+
+.dlb_btn a::before, .dlb_btn_inlineb a::before { border-color: #ffffff; }
+
+.dlb_btn a:hover, .dlb_btn_inlineb a:hover { background-color: #ffffff; color: #293A45; border-color: #293A45; }
+
+.dlb_btn a:hover::before, .dlb_btn_inlineb a:hover::before { border-color: #293A45; }
+
+.dlb_txt_link_before a { color: #0075C2; }
+
+.dlb_txt_link_after a { color: #0075C2; }
+
+.dlb_btn.dlb_btn_dl a::before { font-family: "Font Awesome 5 Free"; content: "\f1c1"; font-weight: 900; border: none; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); top: calc(50% - 14px); }
+
+.dlb_btn.dlb_btn_dl a:hover::before { left: 7%; }
+
+.dlb_btn.dlb_btn_color a { background-color: #0075C2; border-color: #0075C2; }
+
+.dlb_btn.dlb_btn_color a:hover { background-color: #ffffff; color: #0075C2; border-color: #0075C2; }
+
+.dlb_txt_link_before a { color: #0075C2; }
+
+.dlb_txt_link_after a { color: #0075C2; }
+
+/* ----------------------------
+
+サムネイル名 ： コンテンツ　C-66（Ver5）
+
+----------------------------- */
+/* info area */
+.dlb_c66_info_block { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.dlb_c66_info_txt_area { width: 60%; }
+
+.dlb_c66_list { margin-top: 15px; padding: 10px 10px; background-color: #f5f5f5; }
+
+.dlb_c66_list ul { margin-left: 20px; }
+
+.dlb_c66_list li { font-size: 13px; }
+
+.dlb_c66_info_tab_area { width: 40%; padding-left: 60px; }
+
+.dlb_c66_info_tab_area td { padding: 10px 15px; border-left: none; border-right: none; border-color: #dddddd; }
+
+.dlb_c66_info_tab_area td:first-child { font-weight: bold; width: 25%; }
+
+@media only screen and (max-width: 979px) { /* info area */
+  .dlb_c66_info_txt_area { width: 55%; }
+  .dlb_c66_info_tab_area { width: 45%; padding-left: 30px; }
+  .dlb_c66_info_tab_area td:first-child { width: 30%; } }
+
+@media only screen and (max-width: 690px) { /* info area */
+  .dlb_c66_info_block { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  .dlb_c66_info_txt_area { width: 100%; }
+  .dlb_c66_info_tab_area { width: 100%; padding-left: 0; margin-top: 20px; }
+  .dlb_c66_info_tab_area td:first-child { width: 30%; } }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ダウンロードブロックの色
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 基本 */
+.dlb_color_base_bg { background-color: #0075C2; }
+
+.dlb_color_base_border { border-color: #0075C2; }
+
+.dlb_color_base_text { color: #0075C2; }
+
+.dlb_color_base_pseudo_bg::after, .dlb_color_base_pseudo_bg::before { background-color: #0075C2; }
+
+.dlb_color_base_pseudo_border::after, .dlb_color_base_pseudo_border::before { border-color: #0075C2; }
+
+.dlb_color_base_pseudo_border_top::after, .dlb_color_base_pseudo_border_top::before { border-color: #0075C2 transparent transparent transparent; }
+
+.dlb_color_base_bg_a a { background-color: #0075C2; }
+
+.dlb_color_base_border_a:hover, .dlb_color_base_border_a a { border-color: #0075C2; }
+
+.dlb_color_base_bg_a a:hover { background-color: #ffffff; }
+
+/* hover */
+/* 表 */
+.dlb_color_table_td_bg td, .dlb_color_table_tdfirst_bg td:first-child, .dlb_color_table_th_bg th { background-color: #0075C2; }
+
+.dlb_color_txt_gray { color: #cccccc !important; }
+
+/* jquery Colorbox */
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#cboxContent { background: rgba(255, 255, 255, 0.1); overflow: hidden; padding: 8px; }
+
+.cboxIframe { background: #fff; }
+
+#cboxError { padding: 50px; border: 1px solid #ccc; }
+
+#cboxLoadedContent { margin-bottom: 28px; }
+
+#cboxTitle { position: absolute; bottom: 4px; left: 0; text-align: center; width: 100%; color: #949494; }
+
+#cboxCurrent { position: absolute; bottom: 4px; left: 70px; color: #949494; }
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose { border: 0; padding: 0; margin: 0; overflow: visible; width: auto; background: none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active { outline: 0; }
+
+#cboxSlideshow { position: absolute; bottom: 6px; right: 30px; color: #0092ef; }
