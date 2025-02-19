@@ -202,39 +202,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 	<main id="container">
     <div class="mainpic"></div>
-    <form action="">
+    <!-- グーグルフォームとの連携 -->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfGYqyxtfUUYMCuUsAUYKkRfFSSz1Ozt7xqrZza0vrBfFgLyg/formResponse" method="post">
       <section class="contact">
-        <div class="contact-text"><span class="absolute">必須</span>　氏名</div>
-        <div  class="contact-text">姓　<input type="text" width="88px">　名　<input type="text" width="88px"></div>
-        <div class="contact-text"><span class="absolute">必須</span>　ふりがな</div>
-        <div  class="contact-text">姓　<input type="text" width="88px">　名　<input type="text" width="88px"></div>
+        <label for="name">
+          <div class="contact-text"><span class="absolute">必須</span>　氏名</div>
+          <div  class="contact-text"><input type="text" width="88px" name="entry.1696444169"></div>
+        </label>
+        <label for="furigana">
+          <div class="contact-text"><span class="absolute">必須</span>　ふりがな</div>
+          <div  class="contact-text"><input type="text" width="88px" name="entry.573661188"></div>
+        </label>       
       </section>
       <section class="contact">
-        <div class="mainpic"></div>
-        <div class="contact-text"><span class="absolute">必須</span>　メールアドレス</div>
-        <input type="text" class="contact-sentence">
+        <label for="mail">
+          <div class="contact-text"><span class="absolute">必須</span>　メールアドレス</div>
+          <input type="text" class="contact-sentence" name="entry.1704629676">
+        </label>       
       </section>
       <section class="contact">
-        <div class="mainpic"></div>
-        <div class="contact-text"><span class="absolute">必須</span>　電話番号</div>
-        <input type="text" class="contact-sentence">
+        <label for="tel">
+          <div class="contact-text"><span class="absolute">必須</span>　電話番号</div>
+          <input type="text" class="contact-sentence" name="entry.248271530">
+        </label>        
       </section>
       <section class="contact">
-        <div class="mainpic"></div>
-        <div class="contact-text"><span class="absolute-non">任意</span>　会社名・法人名</div>
-        <input type="text" class="contact-sentence">
+        <label for="company">
+          <div class="contact-text"><span class="absolute-non">任意</span>　会社名・法人名</div>
+          <input type="text" class="contact-sentence" name="entry.340411677">
+        </label>       
       </section>
       <section class="contact">
-        <div class="mainpic"></div>
-        <div class="contact-text"><span class="absolute">必須</span>　お問い合わせ内容</div>
-        <textarea name="" class="lnquirydetails" rows="4"></textarea>
+        <label for="coment">
+          <div class="contact-text"><span class="absolute">必須</span>　お問い合わせ内容</div>
+          <textarea name="entry.50905737" class="lnquirydetails" rows="4"></textarea>
+        </label>
       </section>
       <section class="contact">
         <div class="contact-text"><span class="absolute">必須</span>　個人情報の取扱規程</div>
         <div class="contact-text"><label><input type="checkbox" >個人情報の取扱規程に同意する</label></div>
         <div class="contact-text">当社の<a href="privacy.html" target="_blank">個人情報の取扱規程</a>について同意される方のみ送信できます。</div>
       </section>
-      <button type="submit">送信</button>
+      <div class="b-box">
+       <button type="submit" id="submit">送信</button>
+      </div>
     </form>
 
 

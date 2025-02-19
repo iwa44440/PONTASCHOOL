@@ -6066,7 +6066,7 @@ table.dlb_table_07 {table-layout: auto;}
 	line-height: 1.2;
 }
 .dlb_area_1 .dlb_contact_telnum .in{
-	background: url(/dcms_media/image/dlb_icon_tel.png) left center no-repeat;
+	background: url(dlb_icon_tel.png) left center no-repeat;
 	padding-left: 30px;
 }
 .dlb_area_1 .dlb_contact_btn {
@@ -6115,7 +6115,7 @@ table.dlb_table_07 {table-layout: auto;}
 	line-height: 1.2;
 }
 .dlb_area_2 .dlb_contact_telnum .in{
-	background: url(/dcms_media/image/dlb_icon_tel.png) left center no-repeat;
+	background: url(dlb_icon_tel.png) left center no-repeat;
 	padding-left: 30px;
 }
 .dlb_area_2 .dlb_contact_btn {

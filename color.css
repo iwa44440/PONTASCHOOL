@@ -579,7 +579,7 @@ blog_navi.css
 }
 
 .blog_search input.submit_btn {
-  background-image: url(../image/common/icon_search.png);
+  background-image: url(icon_search.png);
   background-color: #0075C2;
 }
 
@@ -599,7 +599,7 @@ blog_navi.css
 }
 
 .side .tag li a {
-  background-image: url(../image/common/icon_sharp.png);
+  background-image: url(icon_sharp.png);
   color: #0075C2;
 }
 
@@ -674,7 +674,7 @@ common.css
 -------------------------------------------------*/
 /* pagetop ***/
 a.pagetop {
-  background-image: url(../image/common/pagetop.gif);
+  background-image: url(pagetop.gif);
 }
 
 /* ぱんくず locator ***/

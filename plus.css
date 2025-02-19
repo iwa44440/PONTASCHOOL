@@ -14,7 +14,7 @@
   margin: 8px 16px;
   font-size: 16px;
   > input{
-    width: 108px;
+    width:calc(80% - 20px);
     height: 32px;
   }
   > a{
@@ -38,4 +38,20 @@
   margin: 8px 16px;
   width: calc(100% - 20px);
   height: 96px;
+}
+.b-box{
+  text-align: center;
+}
+#submit{
+  font-size:16px;
+  width:128px;
+  background: blue;
+  color: aliceblue;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 16px auto;
+  border: none;
+}
+#submit:hover{
+  background: rgb(0, 0, 171);
 }
