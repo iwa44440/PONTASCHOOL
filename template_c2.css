@@ -197,7 +197,7 @@ header.template_c2 #contact_area a {
   -ms-flex-pack: center;
   justify-content: center;
   height: 100%;
-  background: #E57C2C url("../image/common/icon_mail.png") no-repeat center 20px/20px auto;
+  background: #E57C2C url("icon_mail.png") no-repeat center 20px/20px auto;
   color: #ffffff;
   padding: 30px 10px 0;
   text-align: center;
@@ -227,7 +227,7 @@ header.template_c2 #contact_area2 a {
   -ms-flex-pack: center;
   justify-content: center;
   height: 100%;
-  background: #293337 url("../image/common/icon_mail.png") no-repeat center 20px/20px auto;
+  background: #293337 url("icon_mail.png") no-repeat center 20px/20px auto;
   color: #ffffff;
   padding: 30px 10px 0;
   text-align: center;
@@ -407,7 +407,11 @@ header.template_c2 .gnavi_btn_sp {
   }
   header.template_c2 .gnavi_contact a .txt {
     padding-left: 25px;
-    background: url("../image/common/icon_mail.png") no-repeat left center/15px auto;
+    background: url("icon_mail.png") no-repeat left center/15px auto;
+  }
+  header.template_c2 .gnavi_contact a .txt {
+    padding-left: 25px;
+    background: url("icon_mail.png") no-repeat left center/15px auto;
   }
   header.template_c2 .gnavi_contact.no2 a {
     background: #293337;
@@ -811,7 +815,7 @@ footer.template_c2 .fnav_title {
 }
 
 footer.template_c2 .fnav_title a {
-  background: url("../image/icon_arr.png") no-repeat left 5px/10px auto;
+  background: url("icon_arr.png") no-repeat left 5px/10px auto;
   padding-left: 18px;
   line-height: 1.2;
   font-size: 15px;
@@ -1094,7 +1098,7 @@ pagetitle
   padding: 80px 0;
   margin-bottom: 40px;
   text-align: center;
-  background-image: url(../image/pagetitle_bg_template_c2.jpg);
+  background-image: url(pagetitle_bg_template_c2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1433,7 +1437,7 @@ adobe link
 }
 
 .adobe_link .txt a {
-  background: url("../image/icon_target.png") no-repeat left center/16px auto;
+  background: url("icon_target.png") no-repeat left center/16px auto;
   padding-left: 20px;
 }
 
@@ -1464,19 +1468,19 @@ TOP サービス紹介ブロック
 }
 
 .list_icon li.list_icon01 {
-  background-image: url(../image/icon_chat.png);
+  background-image: url(icon_chat.png);
 }
 
 .list_icon li.list_icon02 {
-  background-image: url(../image/icon_headset.png);
+  background-image: url(icon_headset.png);
 }
 
 .list_icon li.list_icon03 {
-  background-image: url(../image/icon_laptop.png);
+  background-image: url(icon_laptop.png);
 }
 
 .list_icon li.list_icon04 {
-  background-image: url(../image/icon_help.png);
+  background-image: url(icon_help.png);
 }
 
 .col_bg .dlb_box2-2_area .dlb_box2-2_txt {
